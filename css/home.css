@@ -1,0 +1,37 @@
+.hero {
+    background: url('images/MY.png') no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;      
+    background-size: cover;         /* Standard syntax */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero .content .listen-button {
+    text-decoration: none;
+    color: #fff;
+    background: #444444;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.hero .content .listen-button:hover {
+    background: #1d1d1d; /* Darker green */
+}
