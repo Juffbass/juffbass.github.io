@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuffBass - Youtube</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/youtube.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <nav>
+        <a href="https://juffbass.github.io/index.html">
+            <img src="images/juffbass_logo.png" alt="Logo" class="logo">
+        </a>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="autobio.html">About</a></li>
+            <li><a href="originals.html">Originals</a></li>
+            <li><a href="youtube.html">YouTube</a></li>
+            <li><a href="extras.html">Extras</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section class="intro-section">
+            <img src="images/yt.png" alt="Juff" class="intro-image">
+            <p><em>The Juffbass YouTube channel has been around since February 2012, providing bass covers along with tabs for new bassists to learn and master the instrument's part of their favorite songs. He created a loving community of 43k bass players and ever since posted ~ 300 fun and informative videos.</em></p>
+        </section>
+        <div class="tilted-lines"></div>
+        <section class="section-color2">
+            <h2>Popular Videos</h2>
+            <div class="video-carousel">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/iZ5bZotdYrA" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/J8IHwKMTCAM" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/nLQbrMhVYgY" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/IJKxFRmTy0s" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/paQr34qrZMA" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/ZLY14CZiCS8" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/2x981Kc6ZyM" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/tn_PasV5tOk" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </section>
+        <div class="tilted-lines"></div>
+        <section class="section-color1">
+            <h2>Specials</h2>
+            <div class="video-carousel">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/4b-ZTGvbAuU" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Sk-qp9K1wB8" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/B_-uWuPo1-Y" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/KF2QBCKKVzM" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/pfUszmpwwRk" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </section>
+        <div class="tilted-lines"></div>
+        <section class="section-color2">
+            <h2>Playlists</h2>
+            <div class="video-carousel">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/videoseries?list=PLda-GhTIiuF0KiXezFux6h8Akyl_0lkh8" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/videoseries?list=PLda-GhTIiuF3QLiR9-O87Bjij1qu1IaS4" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/videoseries?list=PLda-GhTIiuF3Qul6ETsHwQuaix4bCRw7F" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.video-carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3500,
+                arrows: true
+            });
+
+            $('.specials-carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3500,
+                arrows: true
+            });
+        });
+    </script>
+<footer>
+    <div class="footer-icons">
+        <a href="https://open.spotify.com/artist/4RzPgAKw1qqZn9hgiKkXpS?si=Vh09B-eVQ7mVfpIIYwHADQ"><img src="images/spotify.png" alt="Spotify"></a>
+        <a href="https://music.apple.com/us/artist/juffbass/1493447576"><img src="images/am.png" alt="Apple Music"></a>
+        <a href="https://www.instagram.com/juffbass?igsh=MTRqamNoeDduYXAxaA=="><img src="images/insta.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/juffandbass?mibextid=ZbWKwL"><img src="images/fb.png" alt="Facebook"></a>
+        <a href="https://juffbass.bandcamp.com"><img src="images/bandcamp.png" alt="bandcamp"></a>
+        <a href="https://youtube.com/@juffbass?si=XrcnhwDaYi3Z4gYE"><img src="images/youtube.png" alt="YouTube"></a>
+    </div>
+    <p>&copy; 2024 JuffBass. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -15,8 +15,9 @@
     padding: 50px;
     text-align: center;
     border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
 .hero .content h1 {
     font-size: 48px;
     margin: 0 0 20px;
@@ -33,5 +34,31 @@
 }
 
 .hero .content .listen-button:hover {
-    background: #1d1d1d; /* Darker green */
+    background: #1d1d1d; 
+}
+/* scrollbox code for dummy me to find */
+.content {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+body::-webkit-scrollbar {
+    display: block;
 }

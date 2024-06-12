@@ -1,0 +1,63 @@
+.intro {
+    padding: 50px 0;
+}
+
+.intro h1 {
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 54px; 
+}
+
+.profile-picture {
+    text-align: center;
+ }
+
+.profile-picture img {
+    border-radius: 20px;
+    margin-top: 20px;
+    max-width: 600px; 
+}
+
+.main {
+    text-align: center;
+}
+
+.bio {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.bio p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* scrollbox code for dummy me to find */
+.content {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+body::-webkit-scrollbar {
+    display: block;
+}

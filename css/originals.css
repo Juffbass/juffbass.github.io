@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.albums-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.album {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.album:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.album img {
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.album-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.album-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.release-year {
+    font-size: 18px;
+    color: #aaa;
+}
+
+.description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.streaming-icons {
+    margin-top: 20px;
+}
+
+.streaming-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.streaming-icons img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.streaming-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* scrollbox code for dummy me to find */
+.content {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+body::-webkit-scrollbar {
+    display: block;
+}
+/* Footer Styling */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-icons img {
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
