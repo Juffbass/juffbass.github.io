@@ -21,14 +21,16 @@ nav {
 
 nav .logo {
     height: 40px;
-    margin-left: auto; 
+    margin-right: auto; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
-    margin-right: auto; 
+    margin: 0;
+    padding: 0;
+    align-items: center; 
 }
 
 nav ul li {
@@ -39,6 +41,9 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
+    display: flex; 
+    align-items: center; 
+    height: 100%; 
 }
 
 .intro-section {
@@ -81,10 +86,9 @@ nav ul li a {
 }
 
 .section-color1 h2, .section-color2 h2 {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
     color: #fff; 
     text-align: center;
-    
 }
 
 .section-color1 p, .section-color2 p {
@@ -140,6 +144,7 @@ nav ul li a {
 }
 
 /* scrollbox code for dummy me to find */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -160,6 +165,7 @@ nav ul li a {
 body::-webkit-scrollbar {
     display: block;
 }
+
 /* Footer Styling */
 footer {
     background: rgba(0, 0, 0, 0.8);

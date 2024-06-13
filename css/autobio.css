@@ -6,17 +6,17 @@
     text-align: center;
     font-family: 'Lora', sans-serif;
     font-weight: 700;
-    font-size: 54px; 
+    font-size: 54px;
 }
 
 .profile-picture {
     text-align: center;
- }
+}
 
 .profile-picture img {
     border-radius: 20px;
     margin-top: 20px;
-    max-width: 600px; 
+    max-width: 600px;
 }
 
 .main {
@@ -35,8 +35,8 @@
     margin-bottom: 20px;
     text-align: justify;
 }
-/* scrollbox code for dummy me to find */
 
+/* Scrollbar styling */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -56,4 +56,44 @@
 
 body::-webkit-scrollbar {
     display: block;
+}
+
+/* Media Query for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .intro {
+        padding: 30px 0;
+    }
+
+    .intro h1 {
+        font-size: 36px; 
+    }
+
+    .profile-picture img {
+        max-width: 100%; 
+    }
+
+    .bio {
+        font-size: 1.2rem; 
+        margin: 30px 20px; 
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+    .intro {
+        padding: 20px 0;
+    }
+
+    .intro h1 {
+        font-size: 28px; 
+    }
+
+    .profile-picture img {
+        max-width: 100%; 
+    }
+
+    .bio {
+        font-size: 1rem; 
+        margin: 20px 10px; 
+    }
 }

@@ -1,8 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #32CD32;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #32CD32;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
 .hero {
     background: url("../images/MY.png") no-repeat center center;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;    
-    -o-background-size: cover;      
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -25,7 +82,7 @@
 .hero .content .listen-button {
     text-decoration: none;
     color: #fff;
-    background: #505050;
+    background: var(--secondary-color);
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
@@ -33,10 +90,34 @@
 }
 
 .hero .content .listen-button:hover {
-    background: #242424; /* Darker green */
+    background: var(--hover-color);
 }
-/* scrollbox code for dummy me to find */
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+footer .social-icons {
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-icons img {
+    width: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -56,4 +137,128 @@
 
 body::-webkit-scrollbar {
     display: block;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .hero .content h1 {
+        font-size: 32px;
+    }
+
+    .hero .content .listen-button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    footer .social-icons img {
+        width: 25px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 768px) {
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li a {
+        padding: 12px 18px;
+        font-size: 18px;
+    }
+
+    .hero .content h1 {
+        font-size: 36px;
+    }
+
+    .hero .content .listen-button {
+        padding: 9px 18px;
+        font-size: 17px;
+    }
+
+    footer .social-icons img {
+        width: 28px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul {
+        gap: 25px;
+    }
+
+    nav ul li a {
+        padding: 14px 20px;
+        font-size: 19px;
+    }
+
+    .hero .content h1 {
+        font-size: 42px;
+    }
+
+    .hero .content .listen-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    footer .social-icons img {
+        width: 30px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* Larger Screens */
+@media (min-width: 1025px) {
+    nav ul {
+        gap: 30px;
+    }
+
+    nav ul li a {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+
+    .hero .content h1 {
+        font-size: 48px;
+    }
+
+    .hero .content .listen-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    footer .social-icons img {
+        width: 30px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }

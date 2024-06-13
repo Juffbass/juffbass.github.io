@@ -6,15 +6,50 @@ body {
     padding: 0;
 }
 
-header {
-    text-align: center;
-    padding: 50px 0;
+nav {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
-    font-size: 48px;
-    font-weight: 700;
-    margin: 0;
+nav .logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0; }
+
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #32CD32; /* Hover color */
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #32CD32; /* Underline color */
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 main {
@@ -109,6 +144,7 @@ main {
 body::-webkit-scrollbar {
     display: block;
 }
+
 /* Footer Styling */
 footer {
     background: rgba(0, 0, 0, 0.8);
@@ -140,25 +176,78 @@ footer p {
     color: #ffffff;
     font-size: 0.9rem;
 }
-/* scrollbox code for dummy me to find */
 
-::-webkit-scrollbar {
-    width: 8px;
+/* Media Query for Mobile Phones */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0; /* Adjust padding as needed */
+    }
+
+    header .logo img {
+        width: 150px; /* Adjust logo size as needed */
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .content {
+        padding: 20px 10px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
+    .grid-item {
+        margin-bottom: 15px;
+    }
+
+    footer .social-icons img {
+        height: 30px; /* Adjust the size as needed */
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
 }
 
-::-webkit-scrollbar-track {
-    background: #111;
-}
+/* Media Query for Extra Small Devices */
+@media (max-width: 480px) {
+    nav ul {
+        font-size: 14px;
+    }
 
-::-webkit-scrollbar-thumb {
-    background: #555;
-    border-radius: 4px;
-}
+    .content {
+        padding: 15px 5px;
+    }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #777;
-}
+    .content h2 {
+        font-size: 20px;
+    }
 
-body::-webkit-scrollbar {
-    display: block;
+    .content p {
+        font-size: 12px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
+    .grid-item {
+        margin-bottom: 10px;
+    }
 }
