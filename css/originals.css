@@ -140,3 +140,25 @@ footer p {
     color: #ffffff;
     font-size: 0.9rem;
 }
+/* scrollbox code for dummy me to find */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+body::-webkit-scrollbar {
+    display: block;
+}

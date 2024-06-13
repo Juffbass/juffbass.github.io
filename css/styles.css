@@ -82,10 +82,6 @@ footer p {
 
 
 /* scrollbox code for dummy me to find */
-.content {
-    padding: 80px 20px;
-    min-height: 100vh;
-}
 
 ::-webkit-scrollbar {
     width: 8px;
