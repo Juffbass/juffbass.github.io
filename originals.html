@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Originals - JuffBass</title>
+    <title>JuffBass</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/originals.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -11,22 +11,31 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/juffbass_logo.png" alt="Logo"></a>
+            <a href="index.html"><img src="images/juffbass_logo.png" alt="Artist Logo"></a>
         </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="autobio.html">About</a></li>
                 <li><a href="originals.html">Originals</a></li>
                 <li><a href="youtube.html">YouTube</a></li>
                 <li><a href="extras.html">Extras</a></li>
             </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </nav>
     </header>
     
     <main>
-        <h1>Original Albums</h1>
-        <div class="albums-container">
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'albums')"> Albums</button>
+            <button class="tab-link" onclick="openTab(event, 'singles')">Singles</button>
+        </div>
+        <div id="albums" class="tab-content active">
+            <div class="albums-container">
             <div class="album">
                 <img src="images/album1.jpg" alt="ER Cover">
                 <div class="album-info">
@@ -110,7 +119,101 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+    <!--SINGLES--> 
+<div id="singles" class="tab-content">
+    <div class="albums-container"> <!-- Change from singles-container to albums-container -->
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/MY.png" alt="Myrkur Cover">
+            <div class="album-info">
+                <h2>Myrkur</h2>
+                <p class="release-year">2024</p>
+                <p class="description">From the upcoming untitled album.</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/5hrJCSr6DkfGHVlUOc8KCQ" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://music.apple.com/us/album/myrkur-single/1748791862" target="_blank"><img src="images/am.png" alt="Apple Music"></a>
+                    <a href="https://youtu.be/cMcThBIdaLo" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/myrkur-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/nz.jpg" alt="NZ Cover">
+            <div class="album-info">
+                <h2>New Zealand</h2>
+                <p class="release-year">2024</p>
+                <p class="description">From the upcoming untitled album.</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/7azFA2rM176cQSsJg2yIRi" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://music.apple.com/us/album/new-zealand-single/1736708414" target="_blank"><img src="images/am.png" alt="Apple Music"></a>
+                    <a href="https://youtu.be/_wXED61sl6A" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/new-zealand-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/aurora.jpg" alt="Aurora Cover">
+            <div class="album-info">
+                <h2>Aurora</h2>
+                <p class="release-year">2023</p>
+                <p class="description">From the album "Emptiness Reigns".</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/5z81LaQx6ONx5NSH1xfJuc" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://music.apple.com/us/album/aurora-single/1699164166" target="_blank"><img src="images/am.png" alt="Apple Music"></a>
+                    <a href="https://youtu.be/uCRs2IQk_7o" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/aurora-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/TSYLTWBMFT.jpg" alt="TSYLTWBMFT Cover">
+            <div class="album-info">
+                <h2>The Song You Love Today Will Be My Favourite Tomorrow</h2>
+                <p class="release-year">2023</p>
+                <p class="description">From the album "Emptiness Reigns".</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/5277900q3wAoZlCvNUQGNI" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://music.apple.com/us/album/the-song-you-love-today-will-be-my-favourite-tomorrow-single/1683968896" target="_blank"><img src="images/am.png" alt="Apple Music"></a>
+                    <a href="https://youtu.be/u-c1Pc7h_Bs" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/the-song-you-love-today-will-be-my-favourite-tomorrow-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/ao.jpg" alt="AO Cover">
+            <div class="album-info">
+                <h2>Alpha Orionis</h2>
+                <p class="release-year">2020</p>
+                <p class="description">A rework of Hiraeth's "Mountain Highs, Salty Eyes".</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/2Wd4OEgTWRYRGICBgKEQA2" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://music.apple.com/us/album/alpha-orionis-single/1520211764" target="_blank"><img src="images/am.png" alt="Apple Music"></a>
+                    <a href="https://youtu.be/nBmXzjrIw5E" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/alpha-orionis-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="album"> <!-- Change from singles-container album to album -->
+            <img src="images/pa.jpg" alt="PA Cover">
+            <div class="album-info">
+                <h2>Prospettive Aeree</h2>
+                <p class="release-year">2019</p>
+                <p class="description">From the album "Hiraeth".</p>
+                <div class="streaming-icons">
+                    <a href="https://open.spotify.com/album/2zi9f1WLmu1G24VuDbKazT" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+                    <a href="https://youtu.be/dvNwJ0FXhxU" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="https://juffbass.bandcamp.com/album/prospettive-aeree-single" target="_blank"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
 
     <footer>
         <div class="footer-icons">
@@ -123,5 +226,34 @@
         </div>
         <p>&copy; 2024 JuffBass. All rights reserved.</p>
     </footer>
+    <script>
+        function openTab(event, tabName) {
+            var i, tabcontent, tablinks;
+    
+            // Hide all tab content
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+    
+            // Remove the active class from all tab links
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+    
+            // Show the current tab and add an active class to the clicked tab link
+            document.getElementById(tabName).style.display = "block";
+            document.getElementById(tabName).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+    
+        // Initialize the first tab to be open by default
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.tab-link').click();
+        });
+    </script>
+    
 </body>
 </html>

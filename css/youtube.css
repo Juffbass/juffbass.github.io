@@ -11,40 +11,43 @@ body {
     color: #fff;
 }
 
-nav {
-    background-color: #111;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .logo {
-    height: 40px;
-    margin-right: auto; 
-}
-
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 30px; 
     margin: 0;
     padding: 0;
-    align-items: center; 
 }
 
 nav ul li {
-    display: inline;
+    position: relative;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
-    display: flex; 
-    align-items: center; 
-    height: 100%; 
+    color: #fff;
+    padding: 15px 20px; 
+    font-size: 20px; 
+    transition: color 0.3s;
 }
+
+nav ul li a:hover {
+    color: #32CD32; 
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #32CD32; 
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
 
 .intro-section {
     background-color: #222;

@@ -105,8 +105,8 @@ main {
 }
 
 .streaming-icons a {
-    margin: 0 10px;
     display: inline-block;
+    margin: 0 10px;
 }
 
 .streaming-icons img {
@@ -114,9 +114,36 @@ main {
     transition: transform 0.3s;
 }
 
-.streaming-icons a:hover img {
-    transform: scale(1.2);
+.streaming-icons img:hover {
+    transform: scale(1.1);
 }
+
+.tab-link {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px; /* buttons size */
+    font-size: 1.2rem; /* font size */
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    margin-bottom: 20px; /* vertical spacing */
+    margin-left: 20px;
+    display: inline-block; 
+}
+
+.tab-link:hover,
+.tab-link.active {
+    background-color: #32CD32; 
+    color: #fff;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px; /* Adjust spacing between tabs and content */
+}
+
 
 /* scrollbox code for dummy me to find */
 .content {
