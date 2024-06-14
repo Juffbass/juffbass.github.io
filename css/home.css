@@ -82,7 +82,7 @@ nav ul li a:hover::after {
 .hero .content .listen-button {
     text-decoration: none;
     color: #fff;
-    background: var(--secondary-color);
+    background: #505050;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 }
 
 .hero .content .listen-button:hover {
-    background: var(--hover-color);
+    background: #242424;
 }
 
 footer {
