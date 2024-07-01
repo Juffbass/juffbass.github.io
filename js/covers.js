@@ -18,6 +18,11 @@ async function initializeArtists() {
     const artistData = await fetchArtists();
     const groupedArtists = groupByArtist(artistData);
 
+    // Separate "Fun Extras" from the rest of the artists
+    const funExtras = groupedArtists["Fun Extras"];
+    delete groupedArtists["Fun Extras"];
+
+    // Sort the remaining artists
     const sortedArtists = Object.entries(groupedArtists).sort((a, b) => {
         if (b[1].length === a[1].length) {
             return a[0].localeCompare(b[0]);
@@ -25,6 +30,7 @@ async function initializeArtists() {
         return b[1].length - a[1].length;
     });
 
+    // Append sorted artists to the list
     for (const [artistName, covers] of sortedArtists) {
         const artistElem = document.createElement('div');
         artistElem.classList.add('artist');
@@ -33,7 +39,7 @@ async function initializeArtists() {
             <h2>${artistName}</h2>
             <div class="covers">
                 ${covers.map(cover => `
-                    <div>
+                    <div class="cover-item">
                         <h3>${cover.title}</h3>
                         <a href="${cover.videoUrl}" target="_blank">Watch Video</a>
                     </div>
@@ -48,6 +54,32 @@ async function initializeArtists() {
         });
 
         artistsList.appendChild(artistElem);
+    }
+
+    // Append "Fun Extras" at the end if it exists
+    if (funExtras) {
+        const funExtrasElem = document.createElement('div');
+        funExtrasElem.classList.add('artist');
+
+        funExtrasElem.innerHTML = `
+            <h2>Fun Extras</h2>
+            <div class="covers">
+                ${funExtras.map(cover => `
+                    <div class="cover-item">
+                        <h3>${cover.title}</h3>
+                        <a href="${cover.videoUrl}" target="_blank">Watch Video</a>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        // Add event listener to toggle visibility of covers
+        funExtrasElem.querySelector('h2').addEventListener('click', () => {
+            const coversDiv = funExtrasElem.querySelector('.covers');
+            coversDiv.classList.toggle('show');
+        });
+
+        artistsList.appendChild(funExtrasElem);
     }
 }
 
@@ -80,6 +112,11 @@ async function search() {
 
     const groupedArtists = groupByArtist(filteredArtists.concat(filteredTracks));
 
+    // Separate "Fun Extras" from the rest of the artists
+    const funExtras = groupedArtists["Fun Extras"];
+    delete groupedArtists["Fun Extras"];
+
+    // Sort the remaining artists
     const sortedArtists = Object.entries(groupedArtists).sort((a, b) => {
         if (b[1].length === a[1].length) {
             return a[0].localeCompare(b[0]);
@@ -90,6 +127,7 @@ async function search() {
     const artistsList = document.getElementById('artistsList');
     artistsList.innerHTML = '';
 
+    // Append sorted artists to the list
     for (const [artistName, covers] of sortedArtists) {
         const artistElem = document.createElement('div');
         artistElem.classList.add('artist');
@@ -102,7 +140,7 @@ async function search() {
             <h2>${artistName}</h2>
             <div class="covers ${hasMatchingTrack ? 'show' : ''}">
                 ${covers.map(cover => `
-                    <div>
+                    <div class="cover-item">
                         <h3>${cover.title}</h3>
                         <a href="${cover.videoUrl}" target="_blank">Watch Video</a>
                     </div>
@@ -118,17 +156,43 @@ async function search() {
 
         artistsList.appendChild(artistElem);
     }
+
+    // Append "Fun Extras" at the end if it exists
+    if (funExtras) {
+        const funExtrasElem = document.createElement('div');
+        funExtrasElem.classList.add('artist');
+
+        funExtrasElem.innerHTML = 
+            `<h2>Fun Extras</h2>
+            <div class="covers">
+                ${funExtras.map(cover => `
+                    <div class="cover-item">
+                        <h3>${cover.title}</h3>
+                        <a href="${cover.videoUrl}" target="_blank">Watch Video</a>
+                    </div>
+                `).join('')}
+            </div>`;
+
+        // Add event listener to toggle visibility of covers
+        funExtrasElem.querySelector('h2').addEventListener('click', () => {
+            const coversDiv = funExtrasElem.querySelector('.covers');
+            coversDiv.classList.toggle('show');
+        });
+
+        artistsList.appendChild(funExtrasElem);
+    }
 }
 
-// Event listener for search input to update search results in real-time
+// Event listener for search input
 document.getElementById('searchInput').addEventListener('input', search);
 
-// Event listener for Enter key to perform search
-document.getElementById('searchInput').addEventListener('keydown', (event) => {
+// Event listener for Enter key in the search input
+document.getElementById('searchInput').addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
         search();
     }
 });
 
-// Initial call to load all artists
+// Initialize the artists list when the page loads
 initializeArtists();
+
