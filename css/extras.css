@@ -20,7 +20,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
@@ -32,13 +32,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 15px 20px; 
-    font-size: 20px; 
+    padding: 15px 20px;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #32CD32; 
+    color: #32CD32;
 }
 
 nav ul li a::after {
@@ -46,7 +46,7 @@ nav ul li a::after {
     display: block;
     height: 2px;
     width: 0;
-    background: #32CD32; 
+    background: #32CD32;
     transition: width 0.3s;
 }
 
@@ -54,10 +54,20 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1f1f1f;
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 
 footer .social-icons {
@@ -79,22 +89,24 @@ footer p {
 }
 
 /* Extra Content Styles */
+/* Extra Content Styles */
 .extras-content {
     display: flex;
+    justify-content: center; /* Center the items horizontally */
     flex-wrap: wrap;
-    justify-content: center;
     padding: 40px 20px;
 }
 
 .extra-card {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
+    width: 350px; /* Increase width of each card */
+    height: 350px; /* Increase height of each card */
+    margin: 30px; /* Increase margin around each card */
     perspective: 1000px;
     cursor: pointer;
     position: relative;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    text-align: center; /* Center text */
 }
 
 .extra-card:hover {
@@ -142,10 +154,9 @@ footer p {
 }
 
 .extra-title {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 24px;
-    color: #32CD32; 
+    font-weight: bold; /* Make text bold */
+    margin-bottom: 10px; /* Adjust spacing */
+    color: #fff; /* Change text color */
     animation: fadeIn 0.5s ease-in-out;
 }
 
