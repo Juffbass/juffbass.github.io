@@ -15,6 +15,11 @@
       "videoUrl": "https://www.youtube.com/watch?v=SZq5O1Se2dE"
     },
     {
+      "name": "Fun Extras",
+      "title": "The Strokes - Top10 Basslines",
+      "videoUrl": "https://www.youtube.com/watch?v=SZq5O1Se2dE"
+    },
+    {
         "name": "CRX",
         "title": "Broken Bones",
         "videoUrl": "https://www.youtube.com/watch?v=IAquxdNUMSs"
@@ -27,55 +32,1417 @@
       {
         "name": "The Strokes",
         "title": " On the Other Side",
-        "videoUrl": "https://www.youtube.com/watch?v=QBhJGx8edPE"
+        "videoUrl": "https://www.youtube.com/watch?v=QBhJGx8edPEB "
+      },
+      {
+        "name": "Aurora",
+        "title": "Cure For Me",
+        "videoUrl": "https://www.youtube.com/watch?v=zf_cFBJAfug"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Life Is Simple in the Moonlight",
+        "videoUrl": "https://www.youtube.com/watch?v=809sWo-MSIc"
+      },
+      {
+        "name": "The Strokes",
+        "title": "You're So Right",
+        "videoUrl": "https://www.youtube.com/watch?v=VG3BjzG4_aA"
+      },
+      {
+        "name": "Interpol",
+        "title": "Next Exit",
+        "videoUrl": "https://www.youtube.com/watch?v=Dz7jTwayYjU"
+      },
+      {
+        "name": "Interpol",
+        "title": "Public Pervert",
+        "videoUrl": "https://www.youtube.com/watch?v=EmAOkMgn4zw"
       },
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Goner",
+        "videoUrl": "https://www.youtube.com/watch?v=uokWPsoFcwc"
       },
+      {
+        "name": "Modest Mouse",
+        "title": "Pups to Dust",
+        "videoUrl": "https://www.youtube.com/watch?v=tGQQUI_frqQ"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Chances",
+        "videoUrl": "https://www.youtube.com/watch?v=VcKAtEYT8pw"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Fear of Sleep",
+        "videoUrl": "https://www.youtube.com/watch?v=ilpnlvqRQeE"
+      },
+      {
+        "name": "Deerhunter",
+        "title": "Revival",
+        "videoUrl": "https://www.youtube.com/watch?v=0b1taTrrcug"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "My cat plays Arctic Monkeys on my bass",
+        "videoUrl": "https://www.youtube.com/watch?v=KF2QBCKKVzM"
+      },{
+        "name": "The Strokes",
+        "title": "Guess 10 The Strokes Songs by Their Basslines",
+        "videoUrl": "https://www.youtube.com/watch?v=Sk-qp9K1wB8"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Guess 10 Arctic Monkeys Songs by Their Basslines",
+        "videoUrl": "https://www.youtube.com/watch?v=-Ei0ag2Y8Es"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Perfect Sense",
+        "videoUrl": "https://www.youtube.com/watch?v=5lyjYs7TwUs"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Big Ideas",
+        "videoUrl": "https://www.youtube.com/watch?v=xjFz7ZYZGO0"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Hello You",
+        "videoUrl": "https://www.youtube.com/watch?v=PJ6HSU8s1qE"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "I Ain’t Quite Where I Think I Am",
+        "videoUrl": "https://www.youtube.com/watch?v=3WGo2Mb69l0"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Sculptures of Anything Goes",
+        "videoUrl": "https://www.youtube.com/watch?v=MeRgwjoTwJ0"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Body Paint",
+        "videoUrl": "https://www.youtube.com/watch?v=cfZNxsn-REc"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "There'd Better be a Mirrorball",
+        "videoUrl": "https://www.youtube.com/watch?v=TZJ6FbNGPss"
+      },{
+        "name": "The Strokes",
+        "title": "The End Has No End",
+        "videoUrl": "https://www.youtube.com/watch?v=u2r7qelgHK0"
+      },{
+        "name": "The Strokes",
+        "title": "Under Control",
+        "videoUrl": "https://www.youtube.com/watch?v=OMFI3X_dpsg"
+      },{
+        "name": "The Strokes",
+        "title": "I Can't Win",
+        "videoUrl": "https://www.youtube.com/watch?v=lbJHQ-810-A"
+      },{
+        "name": "The Strokes",
+        "title": "The Way It Is",
+        "videoUrl": "https://www.youtube.com/watch?v=KSXJz7dRvnA"
+      },{
+        "name": "The Strokes",
+        "title": "Bad Decisions",
+        "videoUrl": "https://www.youtube.com/watch?v=D6uPmmcii_A"
+      },{
+        "name": "The Strokes",
+        "title": "Eternal Summer",
+        "videoUrl": "https://www.youtube.com/watch?v=iJQ6TIpdVGY"
+      },{
+        "name": "The Strokes",
+        "title": "Reptilia",
+        "videoUrl": "https://www.youtube.com/watch?v=ww5XHQYwJlE"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "505 (Upright Cat Cover with PAWS!)",
+        "videoUrl": "https://www.youtube.com/watch?v=SGip5p7Ilrk"
+      },{
+        "name": "Interpol",
+        "title": "Slow Hands",
+        "videoUrl": "https://www.youtube.com/watch?v=Sreu4w4KhZU"
+      },{
+        "name": "The Strokes",
+        "title": "You Talk Way Too Much",
+        "videoUrl": "https://www.youtube.com/watch?v=HElOrpgiUms"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Top10 Basslines",
+        "videoUrl": "https://www.youtube.com/watch?v=4b-ZTGvbAuU"
+      },
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys- Top10 Basslines",
+        "videoUrl": "https://www.youtube.com/watch?v=4b-ZTGvbAuU"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Knee Socks",
+        "videoUrl": "https://www.youtube.com/watch?v=a-3tbPsgzP4"
+      },{
+        "name": "The Strokes",
+        "title": "Between Love and Hate",
+        "videoUrl": "https://www.youtube.com/watch?v=HOlOL8DAiFg"
+      },{
+        "name": "The Strokes",
+        "title": "Automatic Stop",
+        "videoUrl": "https://www.youtube.com/watch?v=ICS1jN5QKNI"
+      },{
+        "name": "The Strokes",
+        "title": "Meet Me in the Bathroom",
+        "videoUrl": "https://www.youtube.com/watch?v=gIyHgIi6SBA"
+      },{
+        "name": "Steve Lacy",
+        "title": "Dark Red",
+        "videoUrl": "https://www.youtube.com/watch?v=tn_PasV5tOk"
+      },{
+        "name": "The Strokes",
+        "title": "12:51",
+        "videoUrl": "https://www.youtube.com/watch?v=lIOW8-kSJrA"
+      },{
+        "name": "The Strokes",
+        "title": "Welcome to Japan",
+        "videoUrl": "https://www.youtube.com/watch?v=GyaCTuCcUss"
+      },{
+        "name": "The Neighbourhood",
+        "title": "Daddy Issues",
+        "videoUrl": "https://www.youtube.com/watch?v=-6-kAQk32HU"
+      },{
+        "name": "The Strokes",
+        "title": "What Ever Happened?",
+        "videoUrl": "https://www.youtube.com/watch?v=qqhUIpYiXAU"
+      },{
+        "name": "The Last Shadow Puppets",
+        "title": "Miracle Aligner",
+        "videoUrl": "https://www.youtube.com/watch?v=robBbbd4y90"
+      },{
+        "name": "Twenty One Pilots",
+        "title": "The Outside",
+        "videoUrl": "https://www.youtube.com/watch?v=9STg0QsjQ0A"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Plastic Tramp",
+        "videoUrl": "https://www.youtube.com/watch?v=3e446LB6NEI"
+      },{
+        "name": "Twenty One Pilots",
+        "title": "Choker",
+        "videoUrl": "https://www.youtube.com/watch?v=7-3yIJu-PAM"
+      },{
+        "name": "Twenty One Pilots",
+        "title": "Shy Away",
+        "videoUrl": "https://www.youtube.com/watch?v=AvBzgeMv97Q"
+      },
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Crying Lightning",
+        "videoUrl": "https://www.youtube.com/watch?v=B_-uWuPo1-Y"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Star Treatment",
+        "videoUrl": "https://www.youtube.com/watch?v=2jG-m-qR1b0"
+      },{
+        "name": "Alexandra Savior",
+        "title": "Cupid",
+        "videoUrl": "https://www.youtube.com/watch?v=-j42B3vwDTU"
+      },{
+        "name": "The Last Shadow Puppets",
+        "title": "Aviation",
+        "videoUrl": "https://www.youtube.com/watch?v=8Ea2H5iso0o"
+      },{
+        "name": "The Last Shadow Puppets",
+        "title": "Dracula Teeth",
+        "videoUrl": "https://www.youtube.com/watch?v=6EmfSPTar7I"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "She Looks Like Fun",
+        "videoUrl": "https://www.youtube.com/watch?v=anpHxHXBrag"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Matador",
+        "videoUrl": "https://www.youtube.com/watch?v=fDtv8q0ItvM"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Diamonds are Forever",
+        "videoUrl": "https://www.youtube.com/watch?v=0ZDWuDQHxf0"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Barely Legal",
+        "videoUrl": "https://www.youtube.com/watch?v=HBNeWOdZ_vQ"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Hard to Explain",
+        "videoUrl": "https://www.youtube.com/watch?v=XGANugE0xj4"
+      },
+      {
+        "name": "Cigarettes After Sex",
+        "title": "Falling In Love",
+        "videoUrl": "https://www.youtube.com/watch?v=0-biD2b1BNk"
+      },
+      {
+        "name": "Cigarettes After Sex",
+        "title": "Apocalypse",
+        "videoUrl": "https://www.youtube.com/watch?v=U5j0_-jldh8"
+      },
+      {
+        "name": "The Kooks",
+        "title": "Bad Habit",
+        "videoUrl": "https://www.youtube.com/watch?v=jktiJ_TE3sc"
+      },
+      {
+        "name": "The Strokes",
+        "title": "At the Door",
+        "videoUrl": "https://www.youtube.com/watch?v=6QffTzxs45k"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "The World's First Ever Monster Truck Front Flip",
+        "videoUrl": "https://www.youtube.com/watch?v=F5PKmbmfFgU"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Why are Sundays so Depressing",
+        "videoUrl": "https://www.youtube.com/watch?v=cVeiy9QkF0g"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Not the Same Anymore",
+        "videoUrl": "https://www.youtube.com/watch?v=8KZ6A6UNlaY"
+      },
+      {
+        "name": "Bagossy Brothers Company",
+        "title": "Olyan Ő",
+        "videoUrl": "https://www.youtube.com/watch?v=79dH_AX9Trc"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Afternoon's Hat",
+        "videoUrl": "https://www.youtube.com/watch?v=naT1YXG7HMU"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Adults are Talking",
+        "videoUrl": "https://www.youtube.com/watch?v=vWVEnncBJIA"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Brooklyn Bridge to Chorus",
+        "videoUrl": "https://www.youtube.com/watch?v=awfNeLzlBrQ"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Selfless",
+        "videoUrl": "https://www.youtube.com/watch?v=paQr34qrZMA"
+      },
+      {
+        "name": "The Strokes",
+        "title": "Taken for a Fool",
+        "videoUrl": "https://www.youtube.com/watch?v=bj3owvcNav4"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Fluorescent Adolescent",
+        "videoUrl": "https://www.youtube.com/watch?v=pfUszmpwwRk"
+      },
+
+      {
+        "name": "Alex Turner",
+        "title": "Piledriver Waltz",
+        "videoUrl": "https://www.youtube.com/watch?v=Lv3kg4RVESQ"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Don't Forget Whose Legs You're On",
+        "videoUrl": "https://www.youtube.com/watch?v=qOxN_knltwI"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Blond-O-Sonic Shimmer Trap",
+        "videoUrl": "https://www.youtube.com/watch?v=1ZbHRs6ZRAc"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Arrested Development Theme",
+        "videoUrl": "https://www.youtube.com/watch?v=nxqqUITum3w"
+      },
+
+      {
+        "name": "The Ugly Kings",
+        "title": "Love Enemy",
+        "videoUrl": "https://www.youtube.com/watch?v=fOmUDudY5GU"
+      },
+
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Lane Boy",
+        "videoUrl": "https://www.youtube.com/watch?v=7yb3ywso278"
       },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Anyways",
+        "videoUrl": "https://www.youtube.com/watch?v=FrrAC8qQhhA"
+      },
+
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Stressed Out",
+        "videoUrl": "https://www.youtube.com/watch?v=2WQcS6fgID8"
       },
+
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Holding On to You",
+        "videoUrl": "https://www.youtube.com/watch?v=hg5XcGPRrxA"
       },
+
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Smithereens",
+        "videoUrl": "https://www.youtube.com/watch?v=7gugHWsUURc"
       },
+
       {
         "name": "Twenty One Pilots",
-        "title": "Next Semester",
-        "videoUrl": "https://www.youtube.com/watch?v=tX0ucw4cblo"
+        "title": "Nico and the Niners",
+        "videoUrl": "https://www.youtube.com/watch?v=JiyOHlMxzxU"
+      },
+
+      {
+        "name": "The Last Shadow Puppets",
+        "title": "Bad Habits",
+        "videoUrl": "https://www.youtube.com/watch?v=jG81sAjbvxc"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Bigger Boys and Stolen Sweethearts",
+        "videoUrl": "https://www.youtube.com/watch?v=gjbCZZ27LyI"
+      },
+
+      {
+        "name": "The Last Shadow Puppets",
+        "title": "Pattern",
+        "videoUrl": "https://www.youtube.com/watch?v=3t3T-h41Jfc"
+      },
+
+      {
+        "name": "The Last Shadow Puppets",
+        "title": "Everything You've Come to Expect",
+        "videoUrl": "https://www.youtube.com/watch?v=OxN5n3MX0KA"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "2013",
+        "videoUrl": "https://www.youtube.com/watch?v=mPI8RbLXDwI"
+      },
+
+      {
+        "name": "Stuck In The Sound",
+        "title": "Let's Go",
+        "videoUrl": "https://www.youtube.com/watch?v=tstgUTWJ0bE"
+      },
+
+      {
+        "name": "Air",
+        "title": "Alone In Kyoto",
+        "videoUrl": "https://www.youtube.com/watch?v=IOZ9QOPNCIY"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Too Much to Ask",
+        "videoUrl": "https://www.youtube.com/watch?v=Bs33rXaxwSA"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Too Much to Ask",
+        "videoUrl": "https://www.youtube.com/watch?v=nyLS9MnBbFk"
+      },
+
+      {
+        "name": "Broken Bells",
+        "title": "The Angel and the Fool",
+        "videoUrl": "https://www.youtube.com/watch?v=rWyiSHaE3T4"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Wavin' Bye to the Train or the Bus",
+        "videoUrl": "https://www.youtube.com/watch?v=2s9QLWUDyyQ"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Brooklyn Nine-Nine Theme",
+        "videoUrl": "https://www.youtube.com/watch?v=8tQGy4dIIEg"
+      },
+
+      {
+        "name": "Metronomy",
+        "title": "Night Owl",
+        "videoUrl": "https://www.youtube.com/watch?v=NbM9544OMkE"
+      },
+
+      {
+        "name": "Metronomy",
+        "title": "Everything Goes My Way",
+        "videoUrl": "https://www.youtube.com/watch?v=kJHtFJIWC6A"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Batphone",
+        "videoUrl": "https://www.youtube.com/watch?v=uZF7BYCE2Bs"
+      },
+
+      {
+        "name": "TTNG",
+        "title": "If I Sit Still, Maybe I'll Get Out of Here",
+        "videoUrl": "https://www.youtube.com/watch?v=rWL415il8lA"
+      },
+
+      {
+        "name": "Gregory Alan Isakov",
+        "title": "Big Black Car",
+        "videoUrl": "https://www.youtube.com/watch?v=dxlBqamScpU"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Ultracheese",
+        "videoUrl": "https://www.youtube.com/watch?v=Y50W7aA2EDw"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "American Sports",
+        "videoUrl": "https://www.youtube.com/watch?v=SrtOkY8wc7Q"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Cigarette Smoker Fiona",
+        "videoUrl": "https://www.youtube.com/watch?v=R5cjfrZhnzg"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Golden Trunks",
+        "videoUrl": "https://www.youtube.com/watch?v=YgpUOHK9D0w"
+      },
+
+      {
+        "name": "Interpol",
+        "title": "Obstacle 1",
+        "videoUrl": "https://www.youtube.com/watch?v=IJKxFRmTy0s"
+      },
+
+      {
+        "name": "Shoe",
+        "title": "Egg",
+        "videoUrl": "https://www.youtube.com/watch?v=eNM7_6hmTrI"
+      },
+
+      {
+        "name": "Interpol",
+        "title": "Evil",
+        "videoUrl": "https://www.youtube.com/watch?v=gH15cziRsUg"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "One Point Perspective",
+        "videoUrl": "https://www.youtube.com/watch?v=oK1eogB-MVk"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Four Out of Five",
+        "videoUrl": "https://www.youtube.com/watch?v=jAVwEuIMWWc"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Tranquility Base Hotel + Casino",
+        "videoUrl": "https://www.youtube.com/watch?v=DsqpFIETmfo"
+      },
+
+      {
+        "name": "Foals",
+        "title": "Hummer",
+        "videoUrl": "https://www.youtube.com/watch?v=i0bq1mtQk1U"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Joining the Dots",
+        "videoUrl": "https://www.youtube.com/watch?v=b-T5nJ7jo4A"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Who the Fuck are Arctic Monkeys?",
+        "videoUrl": "https://www.youtube.com/watch?v=mncQBuUgO0A"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Who the Mario are Arctic Monkeys? ",
+        "videoUrl": "https://www.youtube.com/watch?v=A_1X3iE2kTk"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "When It Started",
+        "videoUrl": "https://www.youtube.com/watch?v=gJ-o3byn3I4"
+      },
+
+      {
+        "name": "Cage the Elephant",
+        "title": "Come a Little Closer",
+        "videoUrl": "https://www.youtube.com/watch?v=A5t1_DFUO8s"
+      },
+
+      {
+        "name": "Cage the Elephant",
+        "title": "Cigarette Daydreams",
+        "videoUrl": "https://www.youtube.com/watch?v=xxHyBL0R6Rc"
+      },
+
+      {
+        "name": "Of Monsters and Men",
+        "title": "From Finner",
+        "videoUrl": "https://www.youtube.com/watch?v=BD9L2rc-NKs"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Red Right Hand",
+        "videoUrl": "https://www.youtube.com/watch?v=mXYJpkJ6-aU"
+      },
+
+      {
+        "name": "Franz Ferdinand",
+        "title": "Ulysses",
+        "videoUrl": "https://www.youtube.com/watch?v=IFnt_4J5Vnw"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "If You Found This It's Probably Too Late",
+        "videoUrl": "https://www.youtube.com/watch?v=1D9BYyqw0Xo"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "All My Own Stunts",
+        "videoUrl": "https://www.youtube.com/watch?v=JmNCd6KVtkE"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "No. 1 Party Anthem",
+        "videoUrl": "https://www.youtube.com/watch?v=1Ue4KHAkJdA"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Library Pictures",
+        "videoUrl": "https://www.youtube.com/watch?v=bP5-U8mdAeo"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "The Modern Age",
+        "videoUrl": "https://www.youtube.com/watch?v=sReG9XG72lo"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "New York City Cops",
+        "videoUrl": "https://www.youtube.com/watch?v=Wr7pw2jzabM"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "I Want It All",
+        "videoUrl": "https://www.youtube.com/watch?v=cokNxSJLgNA"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Trying Your Luck",
+        "videoUrl": "https://www.youtube.com/watch?v=KHYVV0WlDpY"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Last Nite",
+        "videoUrl": "https://www.youtube.com/watch?v=J8IHwKMTCAM"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Leave Before The Lights Come On",
+        "videoUrl": "https://www.youtube.com/watch?v=M-ckGLS5fqA"
+      },
+
+      {
+        "name": "Franz Ferdinand",
+        "title": "Right Action",
+        "videoUrl": "https://www.youtube.com/watch?v=3byTwUYPyUU"
+      },
+
+      {
+        "name": "Saint Motel",
+        "title": "Getaway",
+        "videoUrl": "https://www.youtube.com/watch?v=llXmAlI4aCk"
+      },
+
+      {
+        "name": "The Neighbourhood",
+        "title": "Baby Came Home",
+        "videoUrl": "https://www.youtube.com/watch?v=gZ17Y6e2l_0"
+      },
+
+      {
+        "name": "The Neighbourhood",
+        "title": "Cry Baby",
+        "videoUrl": "https://www.youtube.com/watch?v=8-Rm1DkRfXE"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Mad Sounds",
+        "videoUrl": "https://www.youtube.com/watch?v=G6Boj1UAI0M"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Dangerous Animals",
+        "videoUrl": "https://www.youtube.com/watch?v=x1Od-NHYF8g"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Jeweller's Hands",
+        "videoUrl": "https://www.youtube.com/watch?v=ayVKAkfZUyA"
+      },
+
+      {
+        "name": "OK Go",
+        "title": "Maybe, This Time",
+        "videoUrl": "https://www.youtube.com/watch?v=qDkVRXq83c4"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Mardy Bum",
+        "videoUrl": "https://www.youtube.com/watch?v=CRgmEPNeDQQ"
+      },
+
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Do I Wanna Know?",
+        "videoUrl": "https://www.youtube.com/watch?v=_yP6f0pSy6g"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Red Light Indicates Doors Are Secured",
+        "videoUrl": "https://www.youtube.com/watch?v=NqQdmM9zQtc"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Dance Little Liar",
+        "videoUrl": "https://www.youtube.com/watch?v=FX3LxCxM5Lc"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "I Wanna Be Yours",
+        "videoUrl": "https://www.youtube.com/watch?v=je-E9AwGzjA"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "This House is a Circus",
+        "videoUrl": "https://www.youtube.com/watch?v=DTqN9-rG9qw"
+      },
+
+      {
+        "name": "The Neighbourhood",
+        "title": "Sweater Weather",
+        "videoUrl": "https://www.youtube.com/watch?v=bX_LqLvnTf0"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "If You Were There, Beware",
+        "videoUrl": "https://www.youtube.com/watch?v=inkoWWOFAtk"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Do Me a Favour",
+        "videoUrl": "https://www.youtube.com/watch?v=70v2ZRbd4lQ"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Fluorescent Adolescent",
+        "videoUrl": "https://www.youtube.com/watch?v=uXq77AE8-aM"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Bad Thing",
+        "videoUrl": "https://www.youtube.com/watch?v=5yOmj_3LDDI"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "505",
+        "videoUrl": "https://www.youtube.com/watch?v=UIqm-dLcojE"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Soma",
+        "videoUrl": "https://www.youtube.com/watch?v=j90T5VKlXg4"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "That's Where You're Wrong",
+        "videoUrl": "https://www.youtube.com/watch?v=rRg3Bxc3JnA"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Take It or Leave It",
+        "videoUrl": "https://www.youtube.com/watch?v=q0SsCYoo1zk"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Take It or Leave It",
+        "videoUrl": "https://www.youtube.com/watch?v=Zw9y9NrBLrk"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Alone, Together",
+        "videoUrl": "https://www.youtube.com/watch?v=yqI5ZCVjg1c"
+      },
+
+      {
+        "name": "If These Trees Could Talk",
+        "title": "Barren Lands of a Modern Dinosaur",
+        "videoUrl": "https://www.youtube.com/watch?v=iI1918_r_64"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Perhaps Vampires is a Bit Strong But...",
+        "videoUrl": "https://www.youtube.com/watch?v=BLWOfn-E13s"
+      },
+
+      {
+        "name": "Alex Turner",
+        "title": "Stuck on the Puzzle",
+        "videoUrl": "https://www.youtube.com/watch?v=8kAFFGjWPxs"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "The View from the Afternoon",
+        "videoUrl": "https://www.youtube.com/watch?v=qoEIfb9fvpY"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Crying Lightning",
+        "videoUrl": "https://www.youtube.com/watch?v=iZ5bZotdYrA"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "D is for Dangerous",
+        "videoUrl": "https://www.youtube.com/watch?v=S010ZsUlNCM"
+      },
+
+      {
+        "name": "Saint Motel",
+        "title": "My Type",
+        "videoUrl": "https://www.youtube.com/watch?v=hx9_tXWyGfU"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Someday ",
+        "videoUrl": "https://www.youtube.com/watch?v=YkLB1mdgVrk"
+      },
+
+      {
+        "name": "The Strokes",
+        "title": "Is This It",
+        "videoUrl": "https://www.youtube.com/watch?v=CuiKiNIZzGE"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Old Yellow Bricks",
+        "videoUrl": "https://www.youtube.com/watch?v=R2O7NLUm3ac"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Balaclava",
+        "videoUrl": "https://www.youtube.com/watch?v=PXF9UQ1X2pM"
+      },
+
+      {
+        "name": "Arctic Monkeys",
+        "title": "Cornerstone",
+        "videoUrl": "https://www.youtube.com/watch?v=nLQbrMhVYgY"
+      },
+
+      {
+        "name": "Jack and Eliza",
+        "title": "Hold the Line",
+        "videoUrl": "https://www.youtube.com/watch?v=Z_cZKGFRn9I"
       },
       {
-        "name": "name",
-        "title": "title",
-        "videoUrl": "link"
+        "name": "Red Hot Chili Peppers",
+        "title": "The Getaway",
+        "videoUrl": "https://www.youtube.com/watch?v=ZLY14CZiCS8"
       },
       {
-        "name": "name",
-        "title": "title",
-        "videoUrl": "link"
+        "name": "Arctic Monkeys",
+        "title": "She's Thunderstorms",
+        "videoUrl": "https://www.youtube.com/watch?v=6BeuqM4T84c"
       },
       {
-        "name": "name",
-        "title": "title",
-        "videoUrl": "link"
+        "name": "Cage the Elephant",
+        "title": "Back Against the Wall",
+        "videoUrl": "https://www.youtube.com/watch?v=Xzzi7z5Ati8"
+      },
+      {
+        "name": "Cage the Elephant",
+        "title": "Aberdeen",
+        "videoUrl": "https://www.youtube.com/watch?v=Mhq1S2YjKa8"
+      },{
+        "name": "Cage the Elephant",
+        "title": "Ain't No Rest for the Wicked",
+        "videoUrl": "https://www.youtube.com/watch?v=5Tv-Nc4k8u4"
+      },
+      {
+        "name": "Franz Ferdinand",
+        "title": "Brief Encounters",
+        "videoUrl": "https://www.youtube.com/watch?v=raynHC07m4M"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Suck It and See",
+        "videoUrl": "https://www.youtube.com/watch?v=OV9Zy1yFNOc"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Only Ones Who Know",
+        "videoUrl": "https://www.youtube.com/watch?v=z2jQKQzmL3M"
+      },{
+        "name": "Crosses (†††)",
+        "title": "The Epilogue",
+        "videoUrl": "https://www.youtube.com/watch?v=SBjyFtdhyiA"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Don't Sit Down 'Cause I've Moved Your Chair",
+        "videoUrl": "https://www.youtube.com/watch?v=209SReHXmYw"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "You Probably Couldn’t See for the Lights But You Were Staring Straight at Me",
+        "videoUrl": "https://www.youtube.com/watch?v=Gzz-pOkmUTE"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Black Treacle",
+        "videoUrl": "https://www.youtube.com/watch?v=kXMRjjkMyww"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Love is a Laserquest",
+        "videoUrl": "https://www.youtube.com/watch?v=PTl4WLanIBQ"
+      },
+      {
+        "name": "Franz Ferdinand",
+        "title": "Turn It On",
+        "videoUrl": "https://www.youtube.com/watch?v=IkFnoYzTh_Y"
+      },{
+        "name": "Franz Ferdinand",
+        "title": "Come On Home",
+        "videoUrl": "https://www.youtube.com/watch?v=h17eoh3NYfY"
+      },
+      {
+        "name": "Kaukázus",
+        "title": "Ciprus",
+        "videoUrl": "https://www.youtube.com/watch?v=vXkSRYENMH8"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Still Take You Home",
+        "videoUrl": "https://www.youtube.com/watch?v=WE-g8Q74dJ0"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Dancing Shoes",
+        "videoUrl": "https://www.youtube.com/watch?v=E9LjHHSxbnM"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "My Propeller",
+        "videoUrl": "https://www.youtube.com/watch?v=n4ZehVJ5a_4"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Potion Approaching",
+        "videoUrl": "https://www.youtube.com/watch?v=XNRksTj5V-Y"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Fire and the Thud",
+        "videoUrl": "https://www.youtube.com/watch?v=SOcwwJVIH8Y"
+      },
+      {
+        "name": "For a Minor Reflection",
+        "title": "Dansi Dans",
+        "videoUrl": "https://www.youtube.com/watch?v=r7AxHyyrDdI"
+      },{
+        "name": "Kaukázus",
+        "title": "Fotocella",
+        "videoUrl": "https://www.youtube.com/watch?v=-eMTj89o9Oo"
+      },
+      {
+        "name": "Foals",
+        "title": "Blue Blood",
+        "videoUrl": "https://www.youtube.com/watch?v=_1co5BjS8oM"
+      },{
+        "name": "Foals",
+        "title": "Miami",
+        "videoUrl": "https://www.youtube.com/watch?v=ng-RfeTU-z4"
+      },
+      {
+        "name": "Brains",
+        "title": "Positive People",
+        "videoUrl": "https://www.youtube.com/watch?v=kaCiCv2GBWc"
+      },{
+        "name": "Franz Ferdinand",
+        "title": "Michael",
+        "videoUrl": "https://www.youtube.com/watch?v=5E2pMdZGlE8"
+      },
+      {
+        "name": "Franz Ferdinand",
+        "title": "Tell Her Tonight",
+        "videoUrl": "https://www.youtube.com/watch?v=UxgSbwZhJMM"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "From the Ritz to the Rubble",
+        "videoUrl": "https://www.youtube.com/watch?v=ptbse5p2Y2s"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Brick by Brick",
+        "videoUrl": "https://www.youtube.com/watch?v=X2dROHekHUo"
+      },{
+        "name": "Catfish and the Bottlemen",
+        "title": "Homesick",
+        "videoUrl": "https://www.youtube.com/watch?v=oE7cDDqPOCc"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "No Buses",
+        "videoUrl": "https://www.youtube.com/watch?v=R48ixagfZj4"
+      },{
+        "name": "Franz Ferdinand",
+        "title": "Take Me Out",
+        "videoUrl": "https://www.youtube.com/watch?v=XWPU4ZbhT3E"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Riot Van",
+        "videoUrl": "https://www.youtube.com/watch?v=XE2R8OWNqHw"
+      },{
+        "name": "Alt-J",
+        "title": "Léon",
+        "videoUrl": "https://www.youtube.com/watch?v=rdt61ISIh2M"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Piledriver Waltz",
+        "videoUrl": "https://www.youtube.com/watch?v=0uPwUDY7EY0"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Fake Tales of San Francisco",
+        "videoUrl": "https://www.youtube.com/watch?v=j0cTjEzxGTM"
+      },
+      {
+        "name": "Boy",
+        "title": "Little Numbers",
+        "videoUrl": "https://www.youtube.com/watch?v=Wp3K0PXC0fY"
+      },{
+        "name": "Electric Guest",
+        "title": "Awake",
+        "videoUrl": "https://www.youtube.com/watch?v=fp5TMziT7GQ"
+      },
+      {
+        "name": "Fun Extras",
+        "title": "Arctic Monkeys - Feels Like We Only Go Backwards (Tame Impala)",
+        "videoUrl": "https://www.youtube.com/watch?v=J-nrd9idvgE"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "I Bet You Look Good On the Dancefloor",
+        "videoUrl": "https://www.youtube.com/watch?v=nGdYTCIJqow"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "When the Sun Goes Down",
+        "videoUrl": "https://www.youtube.com/watch?v=r9Il3mCgi3w"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "The Bakery",
+        "videoUrl": "https://www.youtube.com/watch?v=4WuWErDi2jk"
+      },
+      {
+        "name": "Franz Ferdinand",
+        "title": "You're the Reason I'm Leaving",
+        "videoUrl": "https://www.youtube.com/watch?v=e28NImdNSTw"
+      },{
+        "name": "Red Hot Chili Peppers",
+        "title": "Otherside",
+        "videoUrl": "https://www.youtube.com/watch?v=kuCkrVCZKvg"
+      },
+      {
+        "name": "Catfish and the Bottlemen",
+        "title": "Kathleen",
+        "videoUrl": "https://www.youtube.com/watch?v=e56x5QXh1ro"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Teddy Picker",
+        "videoUrl": "https://www.youtube.com/watch?v=JTgUJO4W9Pg"
+      },
+      {
+        "name": "Slade",
+        "title": "Merry Christmas Everybody",
+        "videoUrl": "https://www.youtube.com/watch?v=Vwrx-IGaEMg"
+      },{
+        "name": "Bombay Bicycle Club",
+        "title": "Luna",
+        "videoUrl": "https://www.youtube.com/watch?v=t0Fa9i92kZE"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "A Certain Romance",
+        "videoUrl": "https://www.youtube.com/watch?v=MXt9mCeLjTM"
+      },{
+        "name": "Red Hot Chili Peppers",
+        "title": "On Mercury",
+        "videoUrl": "https://www.youtube.com/watch?v=gyrwbwBdd-0"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Catapult",
+        "videoUrl": "https://www.youtube.com/watch?v=e_RL7gQr2aI"
+      },{
+        "name": "Kaukázus",
+        "title": "Hatból a három",
+        "videoUrl": "https://www.youtube.com/watch?v=H4DqC5WMsMk"
+      },
+      {
+        "name": "Foals",
+        "title": "Cassius",
+        "videoUrl": "https://www.youtube.com/watch?v=AMQBtcvkMTg"
+      },{
+        "name": "Noel Gallagher's High Flying Birds",
+        "title": "In the Heat of the Moment",
+        "videoUrl": "https://www.youtube.com/watch?v=LxKjBraokSs"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Temptation Greets You Like Your Naughty Friend",
+        "videoUrl": "https://www.youtube.com/watch?v=U-Hm9VqbKXQ"
+      },{
+        "name": "Broken Bells",
+        "title": "After the Disco",
+        "videoUrl": "https://www.youtube.com/watch?v=LYUgRBDH9hQ"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Hold On, We're Going Home",
+        "videoUrl": "https://www.youtube.com/watch?v=UBQWCFl8DSo"
+      },{
+        "name": "U2",
+        "title": "Ordinary Love",
+        "videoUrl": "https://www.youtube.com/watch?v=AxEVhAooHfc"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Hunger of the Pine",
+        "videoUrl": "https://www.youtube.com/watch?v=3TqGoOUUrEw"
+      },{
+        "name": "Alt-J",
+        "title": "Nara",
+        "videoUrl": "https://www.youtube.com/watch?v=Xl025E6o3cQ"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Left Hand Free",
+        "videoUrl": "https://www.youtube.com/watch?v=x93o-8IFP6g"
+      },{
+        "name": "Franz Ferdinand",
+        "title": "The Dark of the Matinee",
+        "videoUrl": "https://www.youtube.com/watch?v=2x981Kc6ZyM"
+      },
+      {
+        "name": "Franz Ferdinand",
+        "title": "Evil Eye",
+        "videoUrl": "https://www.youtube.com/watch?v=YCTAh56j_2U"
+      },{
+        "name": "Alt-J",
+        "title": "Every Other Freckle",
+        "videoUrl": "https://www.youtube.com/watch?v=7uFV3W2UaOk"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Pretty Visitors",
+        "videoUrl": "https://www.youtube.com/watch?v=F4h12TCWLH4"
+      },{
+        "name": "Arctic Monkeys",
+        "title": "Fireside",
+        "videoUrl": "https://www.youtube.com/watch?v=IrxsLi1wiNI"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Interlude II",
+        "videoUrl": "https://www.youtube.com/watch?v=Bj9v1ogXLCg"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Breezeblocks",
+        "videoUrl": "https://www.youtube.com/watch?v=9Y7cbQHSkAw"
+      },
+      {
+        "name": "Kispál és a Borz",
+        "title": "Csillag vagy fecske",
+        "videoUrl": "https://www.youtube.com/watch?v=KnqzouWAX2M"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Secret Door",
+        "videoUrl": "https://www.youtube.com/watch?v=DbWO2Te8OCs"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "The Hellcat Spangled Shalalala",
+        "videoUrl": "https://www.youtube.com/watch?v=R7TNqWvPub8"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Matilda",
+        "videoUrl": "https://www.youtube.com/watch?v=ccdNNjyXCus"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Baby, I'm Yours",
+        "videoUrl": "https://www.youtube.com/watch?v=U-x2Sdi4oFY"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Brianstorm",
+        "videoUrl": "https://www.youtube.com/watch?v=80tlEgSZcUY"
+      },
+      {
+        "name": "The Black Keys",
+        "title": "Fever",
+        "videoUrl": "https://www.youtube.com/watch?v=h7HwsszgFlY"
+      },
+      {
+        "name": "Foals",
+        "title": "My Number",
+        "videoUrl": "https://www.youtube.com/watch?v=YLqueL_MlKA"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Reckless Serenade",
+        "videoUrl": "https://www.youtube.com/watch?v=Zlkg5CLd1tc"
+      },
+      {
+        "name": "And So I Watch You From Afar",
+        "title": "7 Billion People all Alive at Once",
+        "videoUrl": "https://www.youtube.com/watch?v=SRnGUhveo-o"
+      },
+      {
+        "name": "Bombay Bicycle Club",
+        "title": "Home By Now",
+        "videoUrl": "https://www.youtube.com/watch?v=3vvw76blkvo"
+      },
+      {
+        "name": "Explosions In the Sky",
+        "title": "A Song for Our Fathers",
+        "videoUrl": "https://www.youtube.com/watch?v=J9nzKmPVC2o"
+      },
+      {
+        "name": "TV On the Radio",
+        "title": "Will Do",
+        "videoUrl": "https://www.youtube.com/watch?v=YP2e6M3lVfA"
+      },
+      {
+        "name": "Red Hot Chili Peppers",
+        "title": "She's Only 18",
+        "videoUrl": "https://www.youtube.com/watch?v=63b9wqdcL-A"
+      },
+      {
+        "name": "Bombay Bicycle Club",
+        "title": "It's Alright Now",
+        "videoUrl": "https://www.youtube.com/watch?v=9XoZlUPrLb8"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "You're So Dark",
+        "videoUrl": "https://www.youtube.com/watch?v=yryXH3_qXOw"
+      },
+      {
+        "name": "Coldplay",
+        "title": "Atlas",
+        "videoUrl": "https://www.youtube.com/watch?v=-Elh6DfoHP0"
+      },
+      {
+        "name": "Brains",
+        "title": "Here Come the Don",
+        "videoUrl": "https://www.youtube.com/watch?v=S0v6OVDxFcc"
+      },
+      {
+        "name": "Red Hot Chili Peppers",
+        "title": "Make You Feel Better",
+        "videoUrl": "https://www.youtube.com/watch?v=iNZPd7rARHU"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Arabella",
+        "videoUrl": "https://www.youtube.com/watch?v=YT2XcPhjKl0"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "R U Mine?",
+        "videoUrl": "https://www.youtube.com/watch?v=A_eKmPR5Ouk"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "One for the Road",
+        "videoUrl": "https://www.youtube.com/watch?v=_SRTTUiZCFg"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Snap Out of It",
+        "videoUrl": "https://www.youtube.com/watch?v=UYIZVkIuu0I"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Stop the World I Wanna Get Off With You",
+        "videoUrl": "https://www.youtube.com/watch?v=nKT_cHzklww"
+      },
+      {
+        "name": "Noel Gallagher's High Flying Birds",
+        "title": "The Death of You and Me",
+        "videoUrl": "https://www.youtube.com/watch?v=8keC99ibGOU"
+      },
+      {
+        "name": "Alt-J",
+        "title": "Tessellate",
+        "videoUrl": "https://www.youtube.com/watch?v=efl8S6aRImE"
+      },
+      {
+        "name": "The White Stripes",
+        "title": "Seven Nation Army",
+        "videoUrl": "https://www.youtube.com/watch?v=14swO2STngU"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Why'd You Only Call Me When You're High?",
+        "videoUrl": "https://www.youtube.com/watch?v=AlKGOQAZ8Bc"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Do I Wanna Know?",
+        "videoUrl": "https://www.youtube.com/watch?v=5euSxqhP0qM"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Settle for a Draw",
+        "videoUrl": "https://www.youtube.com/watch?v=XQTSJj5_DWw"
+      },
+      {
+        "name": "Bombay Bicycle Club",
+        "title": "Leave It",
+        "videoUrl": "https://www.youtube.com/watch?v=DQzfH8EakSM"
+      },
+      {
+        "name": "The XX",
+        "title": "Crystalised",
+        "videoUrl": "https://www.youtube.com/watch?v=t6816W9UlCU"
+      },
+      {
+        "name": "Muse",
+        "title": "Feeling Good",
+        "videoUrl": "https://www.youtube.com/watch?v=amGebtdNjkM"
+      },
+      {
+        "name": "Muse",
+        "title": "Supermassive Black Hole",
+        "videoUrl": "https://www.youtube.com/watch?v=zlHjiAFYSHE"
+      },
+      {
+        "name": "Two Door Cinema Club",
+        "title": "Sun",
+        "videoUrl": "https://www.youtube.com/watch?v=xD2taWzfnUQ"
+      },
+      {
+        "name": "The Shins",
+        "title": "Caring Is Creepy",
+        "videoUrl": "https://www.youtube.com/watch?v=LFsIQDG9GPA"
+      },
+      {
+        "name": "Bombay Bicycle Club",
+        "title": "Shuffle (acoustic)",
+        "videoUrl": "https://www.youtube.com/watch?v=niJx1cU7l50"
+      },
+      {
+        "name": "Bombay Bicycle Club",
+        "title": "Beg",
+        "videoUrl": "https://www.youtube.com/watch?v=CVA0wv7xcw8"
+      },
+      {
+        "name": "Muse",
+        "title": "Starlight",
+        "videoUrl": "https://www.youtube.com/watch?v=xjoVe4FuYGg"
+      },
+{
+        "name": "Irie Maffia",
+        "title": "Pretty Little Thing",
+        "videoUrl": "https://www.youtube.com/watch?v=HjftNEHJId8"
+      },
+      {
+        "name": "Irie Maffia",
+        "title": "Hands In the Air",
+        "videoUrl": "https://www.youtube.com/watch?v=6X4h_MMubGI"
+      },
+      {
+        "name": "Arctic Monkeys",
+        "title": "Settle for a Draw",
+        "videoUrl": "https://www.youtube.com/watch?v=paVG7q_4fww"
       }
-
-      
-
-  ]
+]
   
