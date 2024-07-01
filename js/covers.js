@@ -196,3 +196,4 @@ document.getElementById('searchInput').addEventListener('keypress', (event) => {
 // Initialize the artists list when the page loads
 initializeArtists();
 
+
