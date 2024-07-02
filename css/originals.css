@@ -1,61 +1,6 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #121212;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    background-color: #1f1f1f;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .logo {
-    height: 40px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0; }
-
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-    color: #32CD32; /* Hover color */
-}
-
-nav ul li a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    width: 0;
-    background: #32CD32; /* Underline color */
-    transition: width 0.3s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
 main {
     padding: 20px;
 }
-
 .albums-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -123,11 +68,12 @@ main {
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 15px 30px; /* buttons size */
-    font-size: 1.2rem; /* font size */
+    padding: 15px 30px; 
+    font-size: 1.2rem; 
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
-    margin-bottom: 20px; /* vertical spacing */
+    margin-bottom: 5px; 
+    margin-top: 15px;
     margin-left: 20px;
     display: inline-block; 
 }
@@ -141,7 +87,7 @@ main {
 .tabs {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 20px; /* Adjust spacing between tabs and content */
+    margin-bottom: 20px;
 }
 
 
@@ -170,38 +116,6 @@ main {
 
 body::-webkit-scrollbar {
     display: block;
-}
-
-/* Footer Styling */
-footer {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 1rem 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.footer-icons img {
-    height: 40px;
-    transition: transform 0.3s ease;
-}
-
-.footer-icons img:hover {
-    transform: scale(1.1);
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 0.9rem;
 }
 
 /* Media Query for Mobile Phones */
@@ -277,4 +191,90 @@ footer p {
     .grid-item {
         margin-bottom: 10px;
     }
+}
+/* Albums and Singles Styles */
+.albums-container, .singles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.album, .single {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.album:hover, .single:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.album img, .single img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #1f1f1f;
+    border-radius: 10px 10px 0 0;
+}
+
+.album-info, .single-info {
+    padding: 10px;
+}
+
+.album-info h2, .single-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.album-info p, .single-info p {
+    margin: 5px 0;
+}
+
+.release-year {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.streaming-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.streaming-icons img {
+    width: 30px;
+    height: 30px;
+}
+/* Footer Styling */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-icons img {
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
 }

@@ -1,8 +1,6 @@
-const burger = document.querySelector('.burger');
-const navLinks = document.querySelector('.nav-links');
 
-burger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+document.getElementById('mobile-menu').addEventListener('click', function() {
+    document.querySelector('.navbar').classList.toggle('active');
 });
 
 document.querySelectorAll('.extra-card').forEach(card => {
