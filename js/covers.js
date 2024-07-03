@@ -18,7 +18,7 @@ async function initializeArtists() {
     const artistData = await fetchArtists();
     const groupedArtists = groupByArtist(artistData);
 
-    // Separate "Fun Extras" from the rest of the artists
+    // Separate "Fun Extraszfrom the rest of the artists
     const funExtras = groupedArtists["Fun Extras"];
     delete groupedArtists["Fun Extras"];
 
