@@ -18,7 +18,7 @@ async function initializeArtists() {
     const artistData = await fetchArtists();
     const groupedArtists = groupByArtist(artistData);
 
-    // Separate "Fun Extraszfrom the rest of the artists
+    // Separate "Fun Extras" from the rest of the artists
     const funExtras = groupedArtists["Fun Extras"];
     delete groupedArtists["Fun Extras"];
 
@@ -36,7 +36,10 @@ async function initializeArtists() {
         artistElem.classList.add('artist');
 
         artistElem.innerHTML = `
-            <h2>${artistName}</h2>
+            <div class="artist-header">
+                <h2>${artistName}</h2>
+                <span class="cover-count">(${covers.length})</span>
+            </div>
             <div class="covers">
                 ${covers.map(cover => `
                     <div class="cover-item">
@@ -48,7 +51,7 @@ async function initializeArtists() {
         `;
 
         // Add event listener to toggle visibility of covers
-        artistElem.querySelector('h2').addEventListener('click', () => {
+        artistElem.querySelector('.artist-header').addEventListener('click', () => {
             const coversDiv = artistElem.querySelector('.covers');
             coversDiv.classList.toggle('show');
         });
@@ -62,7 +65,10 @@ async function initializeArtists() {
         funExtrasElem.classList.add('artist');
 
         funExtrasElem.innerHTML = `
-            <h2>Fun Extras</h2>
+            <div class="artist-header">
+                <h2>Fun Extras</h2>
+                <span class="cover-count">(${funExtras.length})</span>
+            </div>
             <div class="covers">
                 ${funExtras.map(cover => `
                     <div class="cover-item">
@@ -74,7 +80,7 @@ async function initializeArtists() {
         `;
 
         // Add event listener to toggle visibility of covers
-        funExtrasElem.querySelector('h2').addEventListener('click', () => {
+        funExtrasElem.querySelector('.artist-header').addEventListener('click', () => {
             const coversDiv = funExtrasElem.querySelector('.covers');
             coversDiv.classList.toggle('show');
         });
@@ -137,7 +143,10 @@ async function search() {
         );
 
         artistElem.innerHTML = `
-            <h2>${artistName}</h2>
+            <div class="artist-header">
+                <h2>${artistName}</h2>
+                <span class="cover-count">(${covers.length})</span>
+            </div>
             <div class="covers ${hasMatchingTrack ? 'show' : ''}">
                 ${covers.map(cover => `
                     <div class="cover-item">
@@ -149,7 +158,7 @@ async function search() {
         `;
 
         // Add event listener to toggle visibility of covers
-        artistElem.querySelector('h2').addEventListener('click', () => {
+        artistElem.querySelector('.artist-header').addEventListener('click', () => {
             const coversDiv = artistElem.querySelector('.covers');
             coversDiv.classList.toggle('show');
         });
@@ -162,8 +171,11 @@ async function search() {
         const funExtrasElem = document.createElement('div');
         funExtrasElem.classList.add('artist');
 
-        funExtrasElem.innerHTML = 
-            `<h2>Fun Extras</h2>
+        funExtrasElem.innerHTML = `
+            <div class="artist-header">
+                <h2>Fun Extras</h2>
+                <span class="cover-count">(${funExtras.length})</span>
+            </div>
             <div class="covers">
                 ${funExtras.map(cover => `
                     <div class="cover-item">
@@ -171,10 +183,11 @@ async function search() {
                         <a href="${cover.videoUrl}" target="_blank">Watch Video</a>
                     </div>
                 `).join('')}
-            </div>`;
+            </div>
+        `;
 
         // Add event listener to toggle visibility of covers
-        funExtrasElem.querySelector('h2').addEventListener('click', () => {
+        funExtrasElem.querySelector('.artist-header').addEventListener('click', () => {
             const coversDiv = funExtrasElem.querySelector('.covers');
             coversDiv.classList.toggle('show');
         });
@@ -195,5 +208,3 @@ document.getElementById('searchInput').addEventListener('keypress', (event) => {
 
 // Initialize the artists list when the page loads
 initializeArtists();
-
-

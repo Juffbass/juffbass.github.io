@@ -5,7 +5,7 @@ body {
     color: #fff;
     background-color: #121212;
 }
-
+/* Common styles for the nav bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -82,6 +82,7 @@ header nav .navbar-toggle .bar {
     }
 }
 
+/* Ensure footer is consistent across pages */
 footer {
     position: absolute;
     bottom: 0;
@@ -105,4 +106,61 @@ footer .social-icons img {
 footer p {
     margin: 0;
     font-size: 12px;
+}
+/* Laptops and Desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul {
+        gap: 25px;
+    }
+
+    nav ul li a {
+        padding: 14px 20px;
+        font-size: 19px;
+    }
+
+    .hero .content h1 {
+        font-size: 42px;
+    }
+
+    .hero .content .listen-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    footer .social-icons img {
+        width: 30px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* Larger Screens */
+@media (min-width: 1025px) {
+    nav ul {
+        gap: 30px;
+    }
+
+    nav ul li a {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+
+    .hero .content h1 {
+        font-size: 48px;
+    }
+
+    .hero .content .listen-button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    footer .social-icons img {
+        width: 30px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }

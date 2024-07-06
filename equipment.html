@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/equip.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/juffbass_logo.png" alt="Artist Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="autobio.html">About</a></li>
+                <li><a href="originals.html">Originals</a></li>
+                <li><a href="covers.html">Covers</a></li>
+                <li><a href="extras.html">Extras</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+            </ul>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="page-container">
+            <div id="content-wrap">
+        <section class="equipment-section">
+            <h1>JuffBass's Equipment</h1>
+
+            <div class="equipment-list">
+                <div class="equipment-item">
+                    <h2>SX LTD3</h2>
+                    <h4>Bass Guitar</h4>
+                    <img src="images/sx ltd3.png" alt="SX LTD3">
+                </div>
+
+                <div class="equipment-item">
+                    <h2>SST57+/VWH Stratocaster</h2>
+                    <h4>Electric Guitar</h4>
+                    <img src="images/SST57.png" alt="SST57+/VWH">
+                </div>
+
+                <div class="equipment-item">
+                    <h2>Vintage V4 Reissued</h2>
+                    <h4>Bass Guitar</h4>
+                    <img src="images/bassblue.png" alt="V4">
+                </div>
+
+                <div class="equipment-item">
+                    <h2>JET JT-300</h2>
+                    <h4>Electric Guitar</h4>
+                    <img src="images/JT-300.png" alt="JT-300">
+                </div>
+
+                <div class="equipment-item">
+                    <h2>Marshall MB 15</h2>
+                    <h4>Bass Amplifier</h4>
+                    <img src="images/amp.png" alt="MB15">
+                </div>
+                
+                <div class="equipment-item">
+                    <h2>Scarlett Solo [3rd Gen]</h2>
+                    <h4>USB audio interface</h4>
+                    <img src="images/scarlett-solo-frontelevated-2400-2400__06599.png" alt="Scarlett Solo">
+                </div>
+                
+                <div class="equipment-item">
+                    <h2>V61 USB-MIDI Keyboard</h2>
+                    <img src="images/V61.png" alt="V61">
+                </div>
+                
+                <div class="equipment-item">
+                    <h2>Ultra Slinky Nickel Wound</h2>
+                    <h4>Electric Guitar Strings</h4>
+                    <img src="images/ultra.png" alt="Ultra">
+                </div>
+
+                <div class="equipment-item">
+                    <h2>Blue Steel</h2>
+                    <h4>Bass Guitar Strings</h4>
+                    <img src="images/bluesteel.jpg" alt="Blue Steel">
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://open.spotify.com/artist/4RzPgAKw1qqZn9hgiKkXpS?si=U1jzlPCLTRGrJ66eutB6iQ"><img src="images/spotify.png" alt="Spotify"></a>
+            <a href="https://music.apple.com/us/artist/juffbass/1493447576"><img src="images/am.png" alt="Apple Music"></a>
+            <a href="https://juffbass.bandcamp.com/"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+            <a href="https://www.instagram.com/juffbass/"><img src="images/insta.png" alt="Instagram"></a>
+            <a href="https://web.facebook.com/juffandbass"><img src="images/fb.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/@JuffBass"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.patreon.com/juffbass"><img src="images/patreon.svg" alt="Pateron"></a>
+            <a href="https://ko-fi.com/juffbass"><img src="images/pat.svg" alt="Ko-Fi"></a>
+        </div>
+        <p>&copy; 2024 JuffBass. All rights reserved.</p>
+    </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script>
+        const toggleButton = document.querySelector('.navbar-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
