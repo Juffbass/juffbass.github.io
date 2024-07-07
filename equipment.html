@@ -113,12 +113,14 @@
         <p>&copy; 2024 JuffBass. All rights reserved.</p>
     </footer>
     </div>
-    <script src="js/scripts.js"></script>
     <script>
-        function toggleMenu() {
-        var menu = document.getElementById('mobile-menu');
-        menu.classList.toggle('menu-open');
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    var mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.addEventListener('click', function() {
+        this.classList.toggle('open'); 
+    });
+});
+
     </script>
 </body>
 </html>
