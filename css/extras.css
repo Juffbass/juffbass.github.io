@@ -16,54 +16,6 @@ body {
     padding-bottom: 2.5rem;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-}
-
-footer .social-icons {
-    margin-bottom: 10px;
-}
-
-footer .social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-footer .social-icons img {
-    width: 30px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 12px;
-}
-@media (max-width: 768px) {
-    .footer-icons {
-        flex-direction: column;
-    }
-
-    .footer-icons img {
-        height: 30px;
-    }
-
-    footer p {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-icons img {
-        height: 25px;
-    }
-
-    footer p {
-        font-size: 0.7rem;
-    }
-}
-/* Extra Content Styles */
 .extras-content {
     display: flex;
     justify-content: center; 
@@ -134,68 +86,24 @@ footer p {
     animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Mobile Navigation */
-.burger {
-    display: none;
-    cursor: pointer;
-}
 
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-    transition: all 0.3s ease;
-}
 
-@media screen and (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
+
+
+
+/* Media Query (test) */
+@media (max-width: 768px) {
+    .extras-content {
+        padding: 20px 10px;
+    }
+
+    .extra-card {
         width: 100%;
-        background-color: #1f1f1f;
-        position: absolute;
-        top: 60px;
-        left: 0;
+        height: auto;
+        margin: 10px 0;
     }
 
-    .nav-links.active {
-        display: flex;
-    }
-
-    .burger {
-        display: block;
+    .extra-image img {
+        height: auto;
     }
 }
-/* Footer Styling */
-footer {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 1rem 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.footer-icons img {
-    height: 40px;
-    transition: transform 0.3s ease;
-}
-
-.footer-icons img:hover {
-    transform: scale(1.1);
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 0.9rem;
-}
-

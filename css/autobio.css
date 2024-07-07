@@ -36,95 +36,13 @@
     text-align: justify;
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-    width: 8px;
-}
 
-::-webkit-scrollbar-track {
-    background: #111;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #555;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #777;
-}
-
-body::-webkit-scrollbar {
-    display: block;
-}
-
-/* Media Query for Tablets (max-width: 768px) */
-@media (max-width: 768px) {
-    .intro {
-        padding: 30px 0;
-    }
-
+/* Media Query for all sizes (test) */
+@media (max-width: 575.98px) {
     .intro h1 {
         font-size: 36px; 
     }
-
     .profile-picture img {
-        max-width: 100%; 
+        max-width: 100%;
     }
-
-    .bio {
-        font-size: 1.2rem; 
-        margin: 30px 20px; 
-    }
-}
-
-/* Media Query for Mobile Phones */
-@media (max-width: 480px) {
-    .intro {
-        padding: 20px 0;
-    }
-
-    .intro h1 {
-        font-size: 28px; 
-    }
-
-    .profile-picture img {
-        max-width: 100%; 
-    }
-
-    .bio {
-        font-size: 1rem; 
-        margin: 20px 10px; 
-    }
-}
-/* Footer Styling */
-footer {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 1rem 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.footer-icons img {
-    height: 40px;
-    transition: transform 0.3s ease;
-}
-
-.footer-icons img:hover {
-    transform: scale(1.1);
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 0.9rem;
 }
