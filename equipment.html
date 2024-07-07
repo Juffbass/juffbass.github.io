@@ -40,6 +40,11 @@
                 <div class="equipment-item">
                     <h2>SX LTD3</h2>
                     <h4>Bass Guitar</h4>
+                    <ul>
+                       <li>Model#: SJB/LTD3</li>
+                        <li>Scale: 864mm</li>
+                        <li>Body: Ultra-Lightweight Swamp Ash 2-Piece Center</li>
+                    </ul>
                     <img src="images/sx ltd3.png" alt="SX LTD3">
                 </div>
 
@@ -75,6 +80,7 @@
                 
                 <div class="equipment-item">
                     <h2>V61 USB-MIDI Keyboard</h2>
+                    <h5></h5>
                     <img src="images/V61.png" alt="V61">
                 </div>
                 
@@ -109,12 +115,10 @@
     </div>
     <script src="js/scripts.js"></script>
     <script>
-        const toggleButton = document.querySelector('.navbar-toggle');
-        const navLinks = document.querySelector('.nav-links');
-
-        toggleButton.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
+        function toggleMenu() {
+        var menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('menu-open');
+    }
     </script>
 </body>
 </html>

@@ -182,26 +182,3 @@ footer p {
     color: #ffffff;
     font-size: 0.9rem;
 }
-@media (max-width: 768px) {
-    .footer-icons {
-        flex-direction: column;
-    }
-
-    .footer-icons img {
-        height: 30px;
-    }
-
-    footer p {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-icons img {
-        height: 25px;
-    }
-
-    footer p {
-        font-size: 0.7rem;
-    }
-}
