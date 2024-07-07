@@ -205,4 +205,16 @@ footer p {
     height: 4px;
     background-color: #333;
     margin: 4px 0;
+    transition: transform 0.3s ease;
+}
+.navbar-toggle.open .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.navbar-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggle.open .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
 }
