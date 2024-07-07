@@ -40,24 +40,47 @@ footer p {
     margin: 0;
     font-size: 12px;
 }
+@media (max-width: 768px) {
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .footer-icons img {
+        height: 30px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-icons img {
+        height: 25px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+}
 /* Extra Content Styles */
 .extras-content {
     display: flex;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center; 
     flex-wrap: wrap;
     padding: 40px 20px;
 }
 
 .extra-card {
-    width: 350px; /* Increase width of each card */
-    height: 350px; /* Increase height of each card */
-    margin: 30px; /* Increase margin around each card */
+    width: 350px; 
+    height: 350px; 
+    margin: 30px; 
     perspective: 1000px;
     cursor: pointer;
     position: relative;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    text-align: center; /* Center text */
+    text-align: center; 
 }
 
 .extra-card:hover {
@@ -105,9 +128,9 @@ footer p {
 }
 
 .extra-title {
-    font-weight: bold; /* Make text bold */
-    margin-bottom: 10px; /* Adjust spacing */
-    color: #fff; /* Change text color */
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #fff; 
     animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -174,4 +197,28 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .footer-icons img {
+        height: 30px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-icons img {
+        height: 25px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
 }

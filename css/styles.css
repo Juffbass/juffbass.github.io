@@ -5,7 +5,7 @@ body {
     color: #fff;
     background-color: #121212;
 }
-/* Common styles for the nav bar */
+/* nav bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@ header nav .nav-links {
 }
 
 header nav .nav-links li {
-    margin-left: 20px; /* Adjust the spacing between tabs here */
+    margin-left: 20px; 
 }
 
 header nav .nav-links li a {
@@ -82,7 +82,7 @@ header nav .navbar-toggle .bar {
     }
 }
 
-/* Ensure footer is consistent across pages */
+/* footer styling */
 footer {
     position: absolute;
     bottom: 0;
@@ -107,6 +107,30 @@ footer p {
     margin: 0;
     font-size: 12px;
 }
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .footer-icons img {
+        height: 30px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-icons img {
+        height: 25px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+}
 /* Laptops and Desktops */
 @media (min-width: 769px) and (max-width: 1024px) {
     nav ul {
@@ -125,14 +149,6 @@ footer p {
     .hero .content .listen-button {
         padding: 10px 20px;
         font-size: 18px;
-    }
-
-    footer .social-icons img {
-        width: 30px;
-    }
-
-    footer p {
-        font-size: 12px;
     }
 }
 
@@ -156,11 +172,4 @@ footer p {
         font-size: 18px;
     }
 
-    footer .social-icons img {
-        width: 30px;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
 }

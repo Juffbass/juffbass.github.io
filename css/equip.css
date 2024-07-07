@@ -49,7 +49,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: block;
-    margin: 0 auto 10px; /* Center the image and add bottom margin */
+ 
 }
 
 .equipment-item img:hover {
@@ -57,16 +57,15 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive design for equipment items */
 @media (max-width: 1024px) {
     .equipment-item {
-        width: calc(50% - 30px); /* Two items per row */
+        width: calc(50% - 30px); 
     }
 }
 
 @media (max-width: 768px) {
     .equipment-item {
-        width: 100%; /* One item per row */
+        width: 100%; 
     }
 }
 /* Footer Styling */
@@ -100,6 +99,29 @@ footer p {
     color: #ffffff;
     font-size: 0.9rem;
 
+}
+@media (max-width: 768px) {
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .footer-icons img {
+        height: 30px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-icons img {
+        height: 25px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
 }
 /* Scrollbar styling */
 ::-webkit-scrollbar {
