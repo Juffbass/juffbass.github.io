@@ -36,6 +36,7 @@ header nav .nav-links {
     padding: 0;
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 
 header nav .nav-links li {
@@ -54,18 +55,47 @@ header nav .nav-links li a:hover {
     color: #32CD32;
 }
 
-header nav .navbar-toggle {
+
+
+/* Hamburger menu styles */
+.navbar-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
 
-header nav .navbar-toggle .bar {
-    height: 3px;
+.navbar-toggle .bar {
     width: 25px;
+    height: 3px;
     background-color: #fff;
     margin: 4px 0;
-    transition: all 0.3s ease;
+}
+
+/* Media query for mobile view */
+@media (max-width: 810px) {
+    header nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #1f1f1f;
+        padding: 20px 0;
+    }
+
+    header nav .nav-links li {
+        margin: 10px 0;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+}
+
+/* Show nav links when the menu is active */
+.nav-active .nav-links {
+    display: flex;
 }
 
 
@@ -76,6 +106,35 @@ header nav .navbar-toggle .bar {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries to handle responsiveness */
+@media (max-width: 810px) {
+    .nav-links {
+        display: none; /* Hide the navbar links */
+    }
+
+    .nav-links.open {
+        display: flex; /* Show the navbar links when open class is added */
+        flex-direction: column;
+    }
+
+    .navbar-toggle {
+        display: block; /* Show the hamburger menu */
+    }
+}
 
 
 
@@ -115,7 +174,7 @@ header nav .navbar-toggle .bar {
 footer {
     background-color: #1f1f1f;
     text-align: center;
-    background: rgba(0, 0, 0, 0.8);
+    background: #1f1f1f;
     padding: 1rem 0;
     position: relative;
     bottom: 0;
