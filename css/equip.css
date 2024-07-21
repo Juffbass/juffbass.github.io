@@ -30,7 +30,7 @@
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
-    width: calc(33.333% - 40px); /* Three items per row */
+    width: calc(33.333% - 40px); 
     box-sizing: border-box;
     text-align: center;
     display: flex;
@@ -41,18 +41,18 @@
 .equipment-item h2 {
     font-size: 24px;
     color: #fff;
-    margin-bottom: 2px; /* Closer to h4 */
+    margin-bottom: 2px; 
 }
 
 .equipment-item h4 {
     font-size: 18px;
     color: #bbb;
-    margin-bottom: 20px; /* Space between h4 and button */
+    margin-bottom: 20px; 
 }
 
 .equipment-item .toggle-specs {
-    margin-top: 30px; /* Space above button */
-    margin-bottom: 20px; /* Space below button */
+    margin-top: 30px; 
+    margin-bottom: 20px; 
 }
 
 .equipment-item img {
@@ -63,30 +63,31 @@
 }
 
 .equipment-item ul {
-    list-style: none; /* Remove default bullets */
+    list-style: none; 
     padding: 0;
     margin: 0;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 .equipment-item ul li {
-    background-color: #1f1f1f; /* Background color for list items */
-    padding: 10px 15px; /* Padding inside list items */
-    margin-bottom: 10px; /* Space between list items */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    color: #bbb; /* Text color */
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center align items */
+    background-color: #1f1f1f; 
+    padding: 10px 15px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #bbb; 
+    display: flex; 
+    align-items: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .equipment-item ul li:before {
-    content: '\2022'; /* Bullet point */
-    color: #32CD32; /* Bullet color */
-    font-weight: bold; /* Bullet weight */
-    display: inline-block; /* Keep it inline */
-    width: 1em; /* Space for bullet */
-    margin-left: 0.5em; /* Position bullet */
+    content: '\2022'; 
+    color: #32CD32; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: 0.5em; 
 }
 
 .toggle-specs {
@@ -107,15 +108,15 @@
 }
 
 .specs-list {
-    display: none; /* Initially hidden */
+    display: none; 
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
 
 .equipment-item ul li img {
-    margin-right: 10px; /* Space between icon and text */
-    width: 20px; /* Size of icon */
-    height: 20px; /* Size of icon */
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px; 
 }
 
 @media (max-width: 1024px) {
