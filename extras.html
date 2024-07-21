@@ -17,20 +17,28 @@
         </div>
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="autobio.html">About</a></li>
-                <li><a href="originals.html">Originals</a></li>
-                <li><a href="covers.html">Covers</a></li>
-                <li><a href="extras.html">Extras</a></li>
-                <li><a href="equipment.html">Equipment</a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="autobio.html">About</a></li>
+                <li class="hideOnMobile"><a href="originals.html">Originals</a></li>
+                <li class="hideOnMobile"><a href="covers.html">Covers</a></li>
+                <li class="hideOnMobile"><a href="extras.html">Extras</a></li>
+                <li class="hideOnMobile"><a href="equipment.html">Equipment</a></li>
+                <li class="menu-button" onclick="showSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
+                </li>
             </ul>
-            <div class="navbar-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
     </header>
+
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="autobio.html">About</a></li>
+        <li><a href="originals.html">Originals</a></li>
+        <li><a href="covers.html">Covers</a></li>
+        <li><a href="extras.html">Extras</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+    </ul>
 
     <main>
         <div id="page-container">

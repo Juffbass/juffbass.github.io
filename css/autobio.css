@@ -36,13 +36,52 @@
     text-align: justify;
 }
 
-
-/* Media Query for all sizes (test) */
-@media (max-width: 575.98px) {
-    .intro h1 {
-        font-size: 36px; 
+@media (max-width: 768px) {
+    .intro {
+        padding: 30px 0;
     }
+
+    .intro h1 {
+        font-size: 36px;
+    }
+
     .profile-picture img {
-        max-width: 100%;
+        max-width: 80%; /* Reduce size to 80% of its container */
+        margin-top: 10px;
+    }
+
+    .bio {
+        font-size: 1.2rem;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .bio p {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        padding: 20px 0;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .profile-picture img {
+        max-width: 60%; /* Reduce size to 60% of its container */
+        margin-top: 5px;
+    }
+
+    .bio {
+        font-size: 1rem;
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+
+    .bio p {
+        margin-bottom: 10px;
     }
 }

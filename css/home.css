@@ -35,44 +35,35 @@
 .hero .content .listen-button:hover {
     background: #242424;
 }
-
-/* Media Query for all sizes (test) */
-/* For tablets and smaller desktops */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .hero .content {
         padding: 30px;
+        border-radius: 8px;
     }
+
     .hero .content h1 {
         font-size: 36px;
     }
+
     .hero .content .listen-button {
+        padding: 8px 16px;
         font-size: 16px;
     }
 }
 
-/* For tablets and smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .hero .content {
         padding: 20px;
+        border-radius: 6px;
     }
+
     .hero .content h1 {
         font-size: 28px;
     }
+
     .hero .content .listen-button {
+        padding: 6px 12px;
         font-size: 14px;
     }
 }
 
-/* For mobile phones */
-@media (max-width: 480px) {
-    .hero .content {
-        padding: 10px;
-    }
-    .hero .content h1 {
-        font-size: 24px;
-    }
-    .hero .content .listen-button {
-        font-size: 12px;
-        padding: 8px 16px;
-    }
-}

@@ -1,3 +1,59 @@
+
+.sidebar {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(27, 27, 27, 0.075);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,6 +62,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 main {
@@ -36,7 +96,6 @@ header nav .nav-links {
     padding: 0;
     display: flex;
     align-items: center;
-    gap: 30px;
 }
 
 header nav .nav-links li {
@@ -55,126 +114,25 @@ header nav .nav-links li a:hover {
     color: #32CD32;
 }
 
-
-
-/* Hamburger menu styles */
-.navbar-toggle {
+header nav .navbar-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
 
-.navbar-toggle .bar {
-    width: 25px;
+header nav .navbar-toggle .bar {
     height: 3px;
+    width: 25px;
     background-color: #fff;
     margin: 4px 0;
+    transition: all 0.3s ease;
 }
 
-/* Media query for mobile view */
-@media (max-width: 810px) {
-    header nav .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: #1f1f1f;
-        padding: 20px 0;
-    }
-
-    header nav .nav-links li {
-        margin: 10px 0;
-    }
-
-    .navbar-toggle {
-        display: flex;
-    }
-}
-
-/* Show nav links when the menu is active */
-.nav-active .nav-links {
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media queries to handle responsiveness */
-@media (max-width: 810px) {
-    .nav-links {
-        display: none; /* Hide the navbar links */
-    }
-
-    .nav-links.open {
-        display: flex; /* Show the navbar links when open class is added */
-        flex-direction: column;
-    }
-
-    .navbar-toggle {
-        display: block; /* Show the hamburger menu */
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Swear I won't change this footer styling ever, please */
+/* Footer styles */
 footer {
     background-color: #1f1f1f;
     text-align: center;
-    background: #1f1f1f;
+    background: rgba(0, 0, 0, 0.8);
     padding: 1rem 0;
     position: relative;
     bottom: 0;
@@ -201,9 +159,8 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Media Queries for footer*/
+/* Media Queries for footer */
 @media (max-width: 600px) {
-
     footer .social-icons img {
         width: 25px;
     }
@@ -212,6 +169,7 @@ footer p {
         font-size: 10px;
     }
 }
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;

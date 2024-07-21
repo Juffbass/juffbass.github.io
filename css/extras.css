@@ -89,21 +89,42 @@ body {
 
 
 
-
-
-/* Media Query (test) */
 @media (max-width: 768px) {
     .extras-content {
         padding: 20px 10px;
     }
 
     .extra-card {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
+        width: 300px; 
+        height: 300px; 
+        margin: 20px;
     }
 
-    .extra-image img {
-        height: auto;
+    .extra-title {
+        font-size: 18px; 
+    }
+
+    .extra-image .overlay {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .extras-content {
+        padding: 10px 5px;
+    }
+
+    .extra-card {
+        width: 250px; 
+        height: 250px; 
+        margin: 15px;
+    }
+
+    .extra-title {
+        font-size: 16px;
+    }
+
+    .extra-image .overlay {
+        font-size: 14px;
     }
 }

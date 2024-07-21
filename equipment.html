@@ -15,20 +15,28 @@
         </div>
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="autobio.html">About</a></li>
-                <li><a href="originals.html">Originals</a></li>
-                <li><a href="covers.html">Covers</a></li>
-                <li><a href="extras.html">Extras</a></li>
-                <li><a href="equipment.html">Equipment</a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="autobio.html">About</a></li>
+                <li class="hideOnMobile"><a href="originals.html">Originals</a></li>
+                <li class="hideOnMobile"><a href="covers.html">Covers</a></li>
+                <li class="hideOnMobile"><a href="extras.html">Extras</a></li>
+                <li class="hideOnMobile"><a href="equipment.html">Equipment</a></li>
+                <li class="menu-button" onclick="showSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
+                </li>
             </ul>
-            <div class="navbar-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
     </header>
+
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="autobio.html">About</a></li>
+        <li><a href="originals.html">Originals</a></li>
+        <li><a href="covers.html">Covers</a></li>
+        <li><a href="extras.html">Extras</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+    </ul>
 
     <main>
         <div id="page-container">
@@ -40,47 +48,164 @@
                 <div class="equipment-item">
                     <h2>SX LTD3</h2>
                     <h4>Bass Guitar</h4>
-                    <ul>
-                       <li>Model#: SJB/LTD3</li>
+                    <button class="toggle-specs">Show Specs</button>
+                            <ul class="specs-list">
                         <li>Scale: 864mm</li>
-                        <li>Body: Ultra-Lightweight Swamp Ash 2-Piece Center</li>
+                        <li>Body: Ultra-Lightweight Swamp Ash 2-Piece Center Joined</li>
+                        <li>Neck: Selected 1-Piece Tiger Maple</li>
+                        <li>Neck Reinforcement: Engineered Rosewood or Rosewood</li>
+                        <li>Truss Rod: 2 Way Truss Rod</li>
+                        <li>Fingerboard: Fingerboard and Neck are in 1-Piece Tiger Maple</li>
+                        <li>Fingerboard Binding: ABS, Ivory</li>
+                        <li>Frets: Nickel</li>
+                        <li>Number of Frets: 20</li>
+                        <li>Position Marks: Real Abalone Inlayed</li>
+                        <li>Machine Heads: Chrome, High Mass Machine Heads</li>
+                        <li>Nut: Synthetic Bone</li>
+                        <li>Nut Width: 38mm</li>
+                        <li>Bridge: Chrome</li>
+                        <li>Strings: D'Addario</li>
+                        <li>Pickups: 2 x Single Coil</li>
+                        <li>Controls: 2V. 1T.</li>
+                        <li>Pickguard: Pearloid</li>
+                        <li>Color: Natural</li>
+                        <li>Finish: Glossy</li>
                     </ul>
+                    
                     <img src="images/sx ltd3.png" alt="SX LTD3">
                 </div>
 
                 <div class="equipment-item">
                     <h2>SST57+/VWH Stratocaster</h2>
                     <h4>Electric Guitar</h4>
+                    <button class="toggle-specs">Show Specs</button>
+                            <ul class="specs-list">
+                                    <li> Scale: 648mm</li>
+                                    <li>Body: Solid Basswood</li>
+                                    <li>Neck: Selected Canadian Maple</li>
+                                    <li>Neck Reinforcement: Engineered Rosewood or Rosewood</li>
+                                    <li>Truss Rod: 2 Way Truss Rod</li>
+                                    <li>Fingerboard: Canadian Maple</li>
+                                    <li>Frets: Nickel</li>
+                                    <li>Number of Frets: 21</li>
+                                    <li>Position Marks: Dots Inlayed, Black</li>
+                                    <li>Machine Heads: Die-Cast, Chrome</li>
+                                    <li>Nut: Synthetic Bone</li>
+                                    <li>Nut Width: 42mm</li>
+                                    <li>Bridge: Chrome</li>
+                                    <li>Strings: D'Addario</li>
+                                    <li>Pickups: 3 x Single Coil</li>
+                                    <li>Pickup Configuration: S-S-S</li>
+                                    <li>Controls: 1V. 1T., 3 Way Switch</li>
+                                    <li>Pickguard: White</li>
+                                    <li>Color: Vintage White</li>
+                                    <li>Finish: Glossy</li>
+                                </ul>
+                                
                     <img src="images/SST57.png" alt="SST57+/VWH">
                 </div>
 
                 <div class="equipment-item">
                     <h2>Vintage V4 Reissued</h2>
                     <h4>Bass Guitar</h4>
+                    <button class="toggle-specs">Show Specs</button>
+                    <ul class="specs-list">
+                            <li>Body: Alder</li>
+                            <li>Neck: Hard Maple Bolt On, Vintage ‘soft C’ profile</li>
+                            <li>Fingerboard: Rosewood, 12" radius</li>
+                            <li>Scale Length: 34" / 864mm</li>
+                            <li>Frets: 20 Medium Jumbo</li>
+                            <li>Neck Inlays: Pearloid dot</li>
+                            <li>Nut: 42mm Graphtech NuBone</li>
+                            <li>Bridge: Wilkinson compensated, four brass saddle</li>
+                            <li>Pickups: Wilkinson WOBP single coil</li>
+                            <li>Controls: Independent master Volume and Tone</li>
+                            <li>Machine Heads: Wilkinson WJBL200</li>
+                            <li>Headstock: Classic Vintage design</li>
+                        </ul>
+                        
+                    </ul>
                     <img src="images/bassblue.png" alt="V4">
                 </div>
 
                 <div class="equipment-item">
                     <h2>JET JT-300</h2>
                     <h4>Electric Guitar</h4>
+                    <button class="toggle-specs">Show Specs</button>
+                    <ul class="specs-list">
+                            <li>Machine Head: Chrome</li>
+                            <li>Neck: Canadian roasted maple</li>
+                            <li>Shape: Modern C</li>
+                            <li>Fretboard: Roasted Maple or Rosewood</li>
+                            <li>Radius: 9.5″</li>
+                            <li>Nut Width: 1.65″</li>
+                            <li>Nut: Bone</li>
+                            <li>Truss Rod: Double action</li>
+                            <li>String Scale: 25.5″</li>
+                            <li>Number of Frets: 22</li>
+                            <li>Body: Basswood</li>
+                            <li>Pickup: SS Ceramic</li>
+                            <li>Bridge: Fixed</li>
+                            <li>Controls: 1V, 1T, 3 way switch</li>
+                            <li>Hardware: Chrome</li>
+                        </ul>
+                        
+                    </ul>
                     <img src="images/JT-300.png" alt="JT-300">
                 </div>
 
                 <div class="equipment-item">
                     <h2>Marshall MB 15</h2>
                     <h4>Bass Amplifier</h4>
+                    <button class="toggle-specs">Show Specs</button>
+                    <ul class="specs-list">
+                        <li>Power: 15 Watt</li>
+                        <li>Speaker: 1x8"</li>
+                        <li>Channels: 2</li>
+                        <li>Dimensions: 381mm x 368mm x 241mm</li>
+                        <li>Cabinet: Ported</li>
+                        <li>Reinforcement: Metal reinforced corners</li>
+                        <li>Handle: Top handle</li>
+                        <li>Input Jack: 1/4"</li>
+                        <li>Power Switch: Yes</li>
+                    </ul>
+                    
                     <img src="images/amp.png" alt="MB15">
                 </div>
                 
                 <div class="equipment-item">
                     <h2>Scarlett Solo [3rd Gen]</h2>
                     <h4>USB audio interface</h4>
+                    <button class="toggle-specs">Show Specs</button>
+                    <ul class="specs-list">
+                        <li>Inputs: Two (1 x 3rd Generation mic pre, 1 switchable line/inst input)</li>
+                        <li>Outputs: Two balanced outputs</li>
+                        <li>Air Mode: Enhances vocals and acoustic instruments</li>
+                        <li>Converters: 24-bit/192 kHz</li>
+                        <li>Gain Halos: Simple level setting</li>
+                        <li>Direct Monitor: Latency-free monitoring</li>
+                        <li>Connectivity: USB-C, compatible with MacOS, Windows, and iPadOS</li>
+                        <li>Included Software: Ableton Live Lite, three months of Pro Tools Artist, Hitmaker Expansion</li>
+                        <li>Included Plugins: Antares, Softube, Landr, XLN Audio, and more</li>
+                    </ul>
+                    
                     <img src="images/scarlett-solo-frontelevated-2400-2400__06599.png" alt="Scarlett Solo">
                 </div>
                 
                 <div class="equipment-item">
-                    <h2>V61 USB-MIDI Keyboard</h2>
-                    <h5></h5>
+                    <h2>Alesis V61 USB-MIDI Keyboard</h2>
+                    <button class="toggle-specs">Show Specs</button>
+                    <ul class="specs-list">
+                            <li>Keys: 61 full-sized, square-front</li>
+                            <li>Pads: 8 velocity- and pressure-sensitive backlit pads</li>
+                            <li>Assignable Controls: 4 knobs, 4 buttons</li>
+                            <li>Octave Controls: Octave Up and Down buttons</li>
+                            <li>Expression: Pitch and modulation wheels</li>
+                            <li>Feedback: Illuminated buttons and knobs</li>
+                            <li>Connectivity: USB power and USB-MIDI for Mac and PC</li>
+                            <li>Included Software: Ableton Live Lite 9, Xpand!2 by AIR Music Tech</li>
+                        </ul>
+                        
                     <img src="images/V61.png" alt="V61">
                 </div>
                 
@@ -114,13 +239,26 @@
     </footer>
     </div>
     <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.addEventListener('click', function() {
-        this.classList.toggle('open'); 
-    });
-});
-
-    </script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var toggleButtons = document.querySelectorAll('.toggle-specs');
+    
+            toggleButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var specsList = this.nextElementSibling;
+                    var img = specsList.nextElementSibling;
+    
+                    if (specsList.style.display === "none" || specsList.style.display === "") {
+                        specsList.style.display = "block";
+                        img.style.display = "none";
+                        this.textContent = "Hide Specs";
+                    } else {
+                        specsList.style.display = "none";
+                        img.style.display = "block";
+                        this.textContent = "Show Specs";
+                    }
+                });
+            });
+        });
+    </script>    
 </body>
 </html>
