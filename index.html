@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="icon" href="images/icon.png">
+    <style>
+        .countdown {
+            font-size: 2rem;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -41,8 +47,8 @@
     <main>
         <div class="hero">
             <div class="content">
-                <h1>Flora out now</h1>
-                <a href="https://linktr.ee/__Flora" class="listen-button">Listen</a>
+                <h1>Hverfa out in</h1>
+                <div class="countdown" id="countdown"></div>
             </div>
         </div>
     </main>
@@ -60,16 +66,32 @@
         </div>
         <p>&copy; 2024 JuffBass. All rights reserved.</p>
     </footer>
+
     <script src="js/scripts.js"></script>
     <script>
-        function showSidebar() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.style.display = 'flex';
+        function countdownTimer() {
+            const countdownElement = document.getElementById('countdown');
+            const targetDate = new Date('October 18, 2024 00:00:00 CEST').getTime();
+
+            const interval = setInterval(() => {
+                const now = new Date().getTime();
+                const timeLeft = targetDate - now;
+
+                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+                countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+                if (timeLeft < 0) {
+                    clearInterval(interval);
+                    countdownElement.innerHTML = 'Released!';
+                }
+            }, 1000);
         }
-        function hideSidebar() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.style.display = 'none';
-        }
+
+        countdownTimer();
     </script>
 </body>
 </html>
