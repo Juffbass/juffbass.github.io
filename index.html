@@ -47,8 +47,8 @@
     <main>
         <div class="hero">
             <div class="content">
-                <h1>Hverfa out in</h1>
-                <div class="countdown" id="countdown"></div>
+                <h1>Hverfa out now</h1>
+                <a href="https://linktr.ee/Hverfa" class="listen-button">Listen</a>
             </div>
         </div>
     </main>
@@ -68,31 +68,5 @@
     </footer>
 
     <script src="js/scripts.js"></script>
-    <script>
-
-    function countdownTimer() {
-        const countdownElement = document.getElementById('countdown');
-        const targetDate = new Date(Date.UTC(2024, 9, 17, 22, 0, 0)); 
-
-        const interval = setInterval(() => {
-            const now = new Date().getTime();
-            const timeLeft = targetDate - now;
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-
-            if (timeLeft < 0) {
-                clearInterval(interval);
-                countdownElement.innerHTML = 'Released!';
-            }
-        }, 1000);
-    }
-
-    countdownTimer();
-</script>
 </body>
 </html>
