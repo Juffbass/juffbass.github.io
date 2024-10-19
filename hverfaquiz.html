@@ -214,94 +214,94 @@
     </div>
 
     <script>
-        document.getElementById('startButton').addEventListener('click', function () {
-            document.getElementById('intro').classList.remove('show');
-            setTimeout(() => {
-                document.getElementById('intro').style.display = 'none'; 
-                document.getElementById('quiz').style.display = 'block'; 
-                document.getElementById('logo').style.display = 'block'; 
-                displayShuffledQuestions(); 
-            }, 1000); 
+    document.getElementById('startButton').addEventListener('click', function () {
+        document.getElementById('intro').classList.remove('show');
+        setTimeout(() => {
+            document.getElementById('intro').style.display = 'none'; 
+            document.getElementById('quiz').style.display = 'block'; 
+            document.getElementById('logo').style.display = 'block'; 
+            displayShuffledQuestions(); 
+        }, 1000); 
+    });
+
+    // Show intro initially
+    window.onload = function() {
+        document.getElementById('intro').classList.add('show');
+    };
+
+    const questions = document.querySelectorAll('.question');
+    let currentQuestionIndex = 0;
+
+    const personalityScores = {
+        rebel: 0,
+        freeSpirit: 0,
+        emotional: 0,
+        leader: 0,
+        dreamer: 0,
+        artist: 0,
+        adventurer: 0,
+        socialButterfly: 0,
+        guardian: 0,
+        seeker: 0
+    };
+
+    const personalityToSong = {
+        dreamer: "Lake Hibara",
+        adventurer: "New Zealand",
+        emotional: "The World Ignores Silent Cries",
+        rebel: "Flora",
+        seeker: "Hverfa",
+        leader: "Myrkur",
+        freeSpirit: "Even When There's A War, Birds Are Not Silent",
+        artist: "The Greenest Green",
+        guardian: "Planes III",
+        socialButterfly: "Fata Morgana"
+    };
+
+    
+    function displayShuffledQuestions() {
+        const shuffledQuestions = Array.from(questions).sort(() => Math.random() - 0.5);
+        shuffledQuestions.forEach(question => {
+            question.style.display = 'none'; 
         });
+        currentQuestionIndex = 0; 
+        showQuestion(shuffledQuestions[currentQuestionIndex]); 
+    }
 
-      
-        window.onload = function() {
-            document.getElementById('intro').classList.add('show');
-        };
+   
+    function showQuestion(question) {
+        questions.forEach(q => q.style.display = 'none'); 
+        question.style.display = 'block'; 
+    }
 
-        const questions = document.querySelectorAll('.question');
-        let currentQuestionIndex = 0;
-
-        const personalityScores = {
-            rebel: 0,
-            freeSpirit: 0,
-            emotional: 0,
-            leader: 0,
-            dreamer: 0,
-            artist: 0,
-            adventurer: 0,
-            socialButterfly: 0,
-            guardian: 0,
-            seeker: 0
-        };
-
-      
-        const personalityToSong = {
-            dreamer: "Lake Hibara",
-            adventurer: "New Zealand",
-            emotional: "The World Ignores Silent Cries",
-            rebel: "Flora",
-            seeker: "Hverfa",
-            leader: "Myrkur",
-            freeSpirit: "Even When There's A War, Birds Are Not Silent",
-            artist: "The Greenest Green",
-            guardian: "Planes III",
-            socialButterfly: "Fata Morgana"
-        };
-
-       
-        function displayShuffledQuestions() {
-            const shuffledQuestions = Array.from(questions).sort(() => Math.random() - 0.5);
-            shuffledQuestions.forEach(question => {
-                question.style.display = 'none'; 
-            });
-            currentQuestionIndex = 0; 
-            showQuestion(shuffledQuestions[currentQuestionIndex]); 
-        }
-
-     // one question at a time
-        function showQuestion(question) {
-            questions.forEach(q => q.style.display = 'none');
-            question.style.display = 'block';
-        }
-
-       
-        document.querySelectorAll('.option').forEach(option => {
-            option.addEventListener('click', function () {
-                const personality = this.getAttribute('data-personality');
-                personalityScores[personality] += 1; 
-                moveToNextQuestion();
-            });
+  
+    document.querySelectorAll('.option').forEach(option => {
+        option.addEventListener('click', function () {
+            const personality = this.getAttribute('data-personality');
+            personalityScores[personality] += 1; 
+            moveToNextQuestion();
         });
+    });
 
-      
-        function moveToNextQuestion() {
-            const questionsArray = Array.from(questions);
-            currentQuestionIndex++; 
-            if (currentQuestionIndex < questionsArray.length) {
-                showQuestion(questionsArray[currentQuestionIndex]); 
-                showResults(); 
-            }
+    function moveToNextQuestion() {
+        const questionsArray = Array.from(questions);
+        currentQuestionIndex++; 
+
+        if (currentQuestionIndex < questionsArray.length) {
+            showQuestion(questionsArray[currentQuestionIndex]); 
+        } else {
+            showResults(); 
         }
+    }
 
-       
-        function showResults() {
-            const personalityType = Object.keys(personalityScores).reduce((a, b) => personalityScores[a] > personalityScores[b] ? a : b); // Determine the personality type
-            const songName = personalityToSong[personalityType]; 
 
-            localStorage.setItem('songResult', songName); 
-            window.location.href = 'result.html'; 
-        }
+    function showResults() {
+        const personalityType = Object.keys(personalityScores).reduce((a, b) => personalityScores[a] > personalityScores[b] ? a : b); 
+        const songName = personalityToSong[personalityType]; 
+
+        localStorage.setItem('songResult', songName); 
+        window.location.href = 'result.html'; 
+    }
     </script>
 
 </body>
