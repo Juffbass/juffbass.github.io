@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('collectableModal');
     const closeBtn = document.querySelector('.close');
     const collectableMessage = document.getElementById('collectableMessage');
-    const audio = new Audio('Hiraeth/Collectables/collectablefound.mp3');
+    const audio = new Audio('../Collectables/collectablefound.mp3');
 
     if (!modal) {
         console.error('Modal element not found');
