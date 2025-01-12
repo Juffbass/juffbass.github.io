@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuffBass - Maybe Tomorrow</title>
+    <link rel="stylesheet" href="expStyles.css"> 
+</head>
+<body>
+    <video id="video-background" loop muted>
+        <source src="Videos/MaybeTomorrow.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay" id="overlay">
+        <div class="pause-symbol">⏸</div>
+    </div>
+
+    <audio id="song-audio" src="trackfiles/01 - Maybe Tomorrow.mp3" autoplay muted></audio>
+    <audio id="ambient-audio" src="AmpAudio/Amp1.wav" loop autoplay class="ambient-audio"></audio>
+
+    <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <div id="controls-container" class="controls-container">
+        <div class="controls">
+            <button id="backward"></button>
+            <button id="play-pause"></button>
+            <button id="forward"></button>
+        </div>
+    </div>
+
+    <script src="expLogic.js"></script> 
+</body>
+</html>
