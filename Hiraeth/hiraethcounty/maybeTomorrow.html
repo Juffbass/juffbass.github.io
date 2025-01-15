@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JuffBass - Maybe Tomorrow</title>
     <link rel="stylesheet" href="expStyles.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap">
+    <link rel="icon" href="trackfiles/hiraeth_cover_final2(1).jpg" type="image/jpeg">
 </head>
 <body>
     <video id="video-background" loop muted>
         <source src="Videos/MaybeTomorrow.mp4" type="video/mp4">
-        Your browser does not support the video tag.
     </video>
 
     <div class="overlay" id="overlay">
@@ -30,6 +31,9 @@
             <button id="forward"></button>
         </div>
     </div>
+
+    <button id="back-to-map" onclick="location.href='/Hiraeth/HiraethCounty.html'">&gt; Back to the map</button>
+    <div id="now-playing">Now playing: JuffBass - Maybe Tomorrow</div>
 
     <script src="expLogic.js"></script> 
 </body>

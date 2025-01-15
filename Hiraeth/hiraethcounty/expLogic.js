@@ -8,7 +8,8 @@ const controlsContainer = document.getElementById('controls-container');
 const progressBar = document.getElementById('progress-bar');
 const ambientAudio = document.getElementById('ambient-audio');
 let overlayGone = false;
-let isPlaying = true;
+let isPlaying = false;
+let songEnded = false;
 
 playPauseButton.innerHTML = isPlaying ? '<img src="../images/pause.png" alt="Pause">' : '<img src="../images/play.png" alt="Play">';
 backwardButton.innerHTML = '<img src="../images/back.png" alt="Backward">';
@@ -18,6 +19,8 @@ ambientAudio.volume = 0.5;
 
 // overlay
 document.body.classList.add('overlay-visible');
+document.getElementById('back-to-map').style.display = 'none';
+controlsContainer.style.display = 'none';
 
 overlay.addEventListener('click', () => {
     videoBackground.play();
@@ -33,18 +36,28 @@ overlay.addEventListener('click', () => {
     overlay.style.display = 'none';
     overlayGone = true;
     document.body.classList.remove('overlay-visible');
+    document.getElementById('back-to-map').style.display = 'block';
+    controlsContainer.style.display = 'block';
 });
 
 // buttons function
 playPauseButton.addEventListener('click', () => {
-    if (isPlaying) {
-        songAudio.pause();
-        playPauseButton.innerHTML = '<img src="../images/play.png" alt="Play">';
+    if (songEnded) {
+        location.reload();
     } else {
-        songAudio.play();
-        playPauseButton.innerHTML = '<img src="../images/pause.png" alt="Pause">';
+        if (isPlaying) {
+            songAudio.pause();
+            videoBackground.pause();
+            ambientAudio.pause();
+            playPauseButton.innerHTML = '<img src="../images/play.png" alt="Play">';
+        } else {
+            songAudio.play();
+            videoBackground.play();
+            ambientAudio.play();
+            playPauseButton.innerHTML = '<img src="../images/pause.png" alt="Pause">';
+        }
+        isPlaying = !isPlaying;
     }
-    isPlaying = !isPlaying;
 });
 
 backwardButton.addEventListener('click', () => {
@@ -76,13 +89,3 @@ ambientAudio.loop = true;
 window.addEventListener('resize', () => {
     videoBackground.style.objectFit = window.innerWidth > window.innerHeight ? 'cover' : 'contain';
 });
-
-window.addEventListener('load', () => {
-    songAudio.play().catch(error => {
-        console.log('Autoplay was prevented:', error);
-    });
-    ambientAudio.play().catch(error => {
-        console.log('Autoplay was prevented:', error);
-    });
-});
-

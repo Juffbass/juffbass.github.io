@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
 #collectableModal {
     display: none; 
     position: fixed; 
@@ -21,7 +23,7 @@
     border: 1px solid #888;
     width: 80%; 
     text-align: center; 
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-family: 'Playwrite AU SA', sans-serif; /* Use the imported font */
     border-radius: 10px; 
     position: relative; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.3); 

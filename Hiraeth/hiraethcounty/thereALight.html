@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuffBass - There's a Light Far Away</title>
+    <link rel="stylesheet" href="expStyles.css"> 
+    <link rel="icon" href="trackfiles/hiraeth_cover_final2(1).jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap">
+</head>
+<body>
+    <video id="video-background" loop muted>
+        <source src="Videos/TheresALightFarAway.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay" id="overlay">
+        <div class="pause-symbol">⏸</div>
+    </div>
+
+    <audio id="song-audio" src="trackfiles/03 - There's a Light Far Away.mp3" autoplay muted></audio>
+    <audio id="ambient-audio" src="AmpAudio/Amp3.wav" loop autoplay class="ambient-audio"></audio>
+
+    <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <div id="controls-container" class="controls-container">
+        <div class="controls">
+            <button id="backward"></button>
+            <button id="play-pause"></button>
+            <button id="forward"></button>
+        </div>
+    </div>
+
+    <button id="back-to-map" onclick="location.href='/Hiraeth/HiraethCounty.html'">&gt; Back to the map</button>
+    <div id="now-playing">Now playing: JuffBass - There's a Light Far Away</div>
+    <script src="expLogic.js"></script> 
+</body>
+</html>

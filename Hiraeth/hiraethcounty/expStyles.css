@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
 body {
     margin: 0;
     overflow: hidden;
@@ -117,4 +119,34 @@ body:not(.overlay-visible):hover .controls-container {
     width: 0;
     height: 100%;
     background: white;
+}
+
+#back-to-map {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 101; 
+    font-family: 'Playwrite AU SA', sans-serif; 
+}
+
+#now-playing {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    z-index: 101; 
+    font-family: 'Playwrite AU SA', sans-serif; 
+}
+
+body.overlay-visible #back-to-map,
+body.overlay-visible #now-playing {
+    display: none;
 }
