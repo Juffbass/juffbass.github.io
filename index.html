@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuffBass - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/icon.png">
+    <style>
+        .countdown {
+            font-size: 2rem;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/juffbass_logo.png" alt="Artist Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="autobio.html">About</a></li>
+                <li class="hideOnMobile"><a href="originals.html">Originals</a></li>
+                <li class="hideOnMobile"><a href="covers.html">Covers</a></li>
+                <li class="hideOnMobile"><a href="extras.html">Extras</a></li>
+                <li class="hideOnMobile"><a href="equipment.html">Equipment</a></li>
+                <li class="menu-button" onclick="showSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="autobio.html">About</a></li>
+        <li><a href="originals.html">Originals</a></li>
+        <li><a href="covers.html">Covers</a></li>
+        <li><a href="extras.html">Extras</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+    </ul>
+
+    <main>
+        <div class="hero">
+            <div class="content">
+                <h1>Hverfa out now</h1>
+                <a href="https://linktr.ee/Hverfa" class="listen-button">Listen</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://open.spotify.com/artist/4RzPgAKw1qqZn9hgiKkXpS?si=U1jzlPCLTRGrJ66eutB6iQ"><img src="images/spotify.png" alt="Spotify"></a>
+            <a href="https://music.apple.com/us/artist/juffbass/1493447576"><img src="images/am.png" alt="Apple Music"></a>
+            <a href="https://juffbass.bandcamp.com/"><img src="images/bandcamp.png" alt="Bandcamp"></a>
+            <a href="https://www.instagram.com/juffbass/"><img src="images/insta.png" alt="Instagram"></a>
+            <a href="https://web.facebook.com/juffandbass"><img src="images/fb.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/@JuffBass"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.patreon.com/juffbass"><img src="images/patreon.svg" alt="Patreon"></a>
+            <a href="https://ko-fi.com/juffbass"><img src="images/pat.svg" alt="Ko-Fi"></a>
+        </div>
+        <p>&copy; 2024 JuffBass. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
