@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 
@@ -12728,6 +12729,16 @@ CHAR 9835
         <source src="https://g.top4top.io/m_3512vj4p11.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+	<script>
+document.addEventListener('keydown', function(e) {
+    if (e.code === 'Enter' || e.keyCode === 13) {
+        var audio = document.querySelector('audio');
+        if (audio && audio.paused) {
+            audio.play();
+        }
+    }
+});
+</script>
 </body>
 
 
